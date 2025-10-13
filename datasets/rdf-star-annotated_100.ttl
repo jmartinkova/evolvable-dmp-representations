@@ -1,0 +1,707 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix :      <http://example.org/ns#> . 
+
+<Dist1> a dcat:Distribution .
+    
+<Dist1> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist1> a dcat:Distribution .
+    
+<Dist1> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist2> a dcat:Distribution .
+    
+<Dist2> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist2> a dcat:Distribution .
+    
+<Dist2> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist3> a dcat:Distribution .
+    
+<Dist3> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist3> a dcat:Distribution .
+    
+<Dist3> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist4> a dcat:Distribution .
+    
+<Dist4> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist4> a dcat:Distribution .
+    
+<Dist4> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist5> a dcat:Distribution .
+    
+<Dist5> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist5> a dcat:Distribution .
+    
+<Dist5> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist6> a dcat:Distribution .
+    
+<Dist6> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist6> a dcat:Distribution .
+    
+<Dist6> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist7> a dcat:Distribution .
+    
+<Dist7> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist7> a dcat:Distribution .
+    
+<Dist7> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist8> a dcat:Distribution .
+    
+<Dist8> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist8> a dcat:Distribution .
+    
+<Dist8> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist9> a dcat:Distribution .
+    
+<Dist9> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist9> a dcat:Distribution .
+    
+<Dist9> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist10> a dcat:Distribution .
+    
+<Dist10> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist10> a dcat:Distribution .
+    
+<Dist10> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist11> a dcat:Distribution .
+    
+<Dist11> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist11> a dcat:Distribution .
+    
+<Dist11> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist12> a dcat:Distribution .
+    
+<Dist12> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist12> a dcat:Distribution .
+    
+<Dist12> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist13> a dcat:Distribution .
+    
+<Dist13> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist13> a dcat:Distribution .
+    
+<Dist13> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist14> a dcat:Distribution .
+    
+<Dist14> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist14> a dcat:Distribution .
+    
+<Dist14> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist15> a dcat:Distribution .
+    
+<Dist15> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist15> a dcat:Distribution .
+    
+<Dist15> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist16> a dcat:Distribution .
+    
+<Dist16> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist16> a dcat:Distribution .
+    
+<Dist16> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist17> a dcat:Distribution .
+    
+<Dist17> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist17> a dcat:Distribution .
+    
+<Dist17> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist18> a dcat:Distribution .
+    
+<Dist18> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist18> a dcat:Distribution .
+    
+<Dist18> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist19> a dcat:Distribution .
+    
+<Dist19> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist19> a dcat:Distribution .
+    
+<Dist19> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist20> a dcat:Distribution .
+    
+<Dist20> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist20> a dcat:Distribution .
+    
+<Dist20> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist21> a dcat:Distribution .
+    
+<Dist21> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist21> a dcat:Distribution .
+    
+<Dist21> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist22> a dcat:Distribution .
+    
+<Dist22> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist22> a dcat:Distribution .
+    
+<Dist22> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist23> a dcat:Distribution .
+    
+<Dist23> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist23> a dcat:Distribution .
+    
+<Dist23> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist24> a dcat:Distribution .
+    
+<Dist24> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist24> a dcat:Distribution .
+    
+<Dist24> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist25> a dcat:Distribution .
+    
+<Dist25> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist25> a dcat:Distribution .
+    
+<Dist25> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist26> a dcat:Distribution .
+    
+<Dist26> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist26> a dcat:Distribution .
+    
+<Dist26> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist27> a dcat:Distribution .
+    
+<Dist27> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist27> a dcat:Distribution .
+    
+<Dist27> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist28> a dcat:Distribution .
+    
+<Dist28> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist28> a dcat:Distribution .
+    
+<Dist28> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist29> a dcat:Distribution .
+    
+<Dist29> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist29> a dcat:Distribution .
+    
+<Dist29> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist30> a dcat:Distribution .
+    
+<Dist30> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist30> a dcat:Distribution .
+    
+<Dist30> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist31> a dcat:Distribution .
+    
+<Dist31> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist31> a dcat:Distribution .
+    
+<Dist31> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist32> a dcat:Distribution .
+    
+<Dist32> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist32> a dcat:Distribution .
+    
+<Dist32> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist33> a dcat:Distribution .
+    
+<Dist33> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist33> a dcat:Distribution .
+    
+<Dist33> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist34> a dcat:Distribution .
+    
+<Dist34> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist34> a dcat:Distribution .
+    
+<Dist34> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist35> a dcat:Distribution .
+    
+<Dist35> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist35> a dcat:Distribution .
+    
+<Dist35> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist36> a dcat:Distribution .
+    
+<Dist36> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist36> a dcat:Distribution .
+    
+<Dist36> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist37> a dcat:Distribution .
+    
+<Dist37> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist37> a dcat:Distribution .
+    
+<Dist37> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist38> a dcat:Distribution .
+    
+<Dist38> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist38> a dcat:Distribution .
+    
+<Dist38> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist39> a dcat:Distribution .
+    
+<Dist39> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist39> a dcat:Distribution .
+    
+<Dist39> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist40> a dcat:Distribution .
+    
+<Dist40> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist40> a dcat:Distribution .
+    
+<Dist40> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist41> a dcat:Distribution .
+    
+<Dist41> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist41> a dcat:Distribution .
+    
+<Dist41> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist42> a dcat:Distribution .
+    
+<Dist42> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist42> a dcat:Distribution .
+    
+<Dist42> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist43> a dcat:Distribution .
+    
+<Dist43> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist43> a dcat:Distribution .
+    
+<Dist43> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist44> a dcat:Distribution .
+    
+<Dist44> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist44> a dcat:Distribution .
+    
+<Dist44> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist45> a dcat:Distribution .
+    
+<Dist45> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist45> a dcat:Distribution .
+    
+<Dist45> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist46> a dcat:Distribution .
+    
+<Dist46> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist46> a dcat:Distribution .
+    
+<Dist46> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist47> a dcat:Distribution .
+    
+<Dist47> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist47> a dcat:Distribution .
+    
+<Dist47> dct:format <json> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist48> a dcat:Distribution .
+    
+<Dist48> dct:format <ttl> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist48> a dcat:Distribution .
+    
+<Dist48> dct:format <rdf> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist49> a dcat:Distribution .
+    
+<Dist49> dct:format <txt> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist49> a dcat:Distribution .
+    
+<Dist49> dct:format <xml> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist50> a dcat:Distribution .
+    
+<Dist50> dct:format <csv> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+
+<Dist50> a dcat:Distribution .
+    
+<Dist50> dct:format <xls> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .
+

@@ -1,0 +1,107 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix :      <http://example.org/ns#> . 
+
+<Dist1>
+    a dcat:Distribution ;
+    :has_format <stm1> .
+
+<stm1>
+    a :Format_Relation ;
+    dct:format <csv> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist1>
+    a dcat:Distribution ;
+    :has_format <stm2> .
+
+<stm2>
+    a :Format_Relation ;
+    dct:format <xls> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist2>
+    a dcat:Distribution ;
+    :has_format <stm3> .
+
+<stm3>
+    a :Format_Relation ;
+    dct:format <json> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist2>
+    a dcat:Distribution ;
+    :has_format <stm4> .
+
+<stm4>
+    a :Format_Relation ;
+    dct:format <ttl> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist3>
+    a dcat:Distribution ;
+    :has_format <stm5> .
+
+<stm5>
+    a :Format_Relation ;
+    dct:format <rdf> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist3>
+    a dcat:Distribution ;
+    :has_format <stm6> .
+
+<stm6>
+    a :Format_Relation ;
+    dct:format <txt> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist4>
+    a dcat:Distribution ;
+    :has_format <stm7> .
+
+<stm7>
+    a :Format_Relation ;
+    dct:format <xml> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist4>
+    a dcat:Distribution ;
+    :has_format <stm8> .
+
+<stm8>
+    a :Format_Relation ;
+    dct:format <csv> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist5>
+    a dcat:Distribution ;
+    :has_format <stm9> .
+
+<stm9>
+    a :Format_Relation ;
+    dct:format <xls> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist5>
+    a dcat:Distribution ;
+    :has_format <stm10> .
+
+<stm10>
+    a :Format_Relation ;
+    dct:format <json> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+

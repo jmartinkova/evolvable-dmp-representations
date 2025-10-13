@@ -1,0 +1,6 @@
+<%%distribution%%> a dcat:Distribution .
+    
+<%%distribution%%> dct:format <%%format%%> {|
+    dct:source <DMP> ;
+    adms:status "planned"
+    |} .

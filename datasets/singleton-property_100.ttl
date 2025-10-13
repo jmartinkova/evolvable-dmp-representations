@@ -1,0 +1,807 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix :      <http://example.org/ns#> . 
+
+<stm1>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist1> a dcat:Distribution ;
+                 <stm1> <csv> .
+
+<stm2>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist1> a dcat:Distribution ;
+                 <stm2> <xls> .
+
+<stm3>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist2> a dcat:Distribution ;
+                 <stm3> <json> .
+
+<stm4>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist2> a dcat:Distribution ;
+                 <stm4> <ttl> .
+
+<stm5>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist3> a dcat:Distribution ;
+                 <stm5> <rdf> .
+
+<stm6>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist3> a dcat:Distribution ;
+                 <stm6> <txt> .
+
+<stm7>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist4> a dcat:Distribution ;
+                 <stm7> <xml> .
+
+<stm8>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist4> a dcat:Distribution ;
+                 <stm8> <csv> .
+
+<stm9>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist5> a dcat:Distribution ;
+                 <stm9> <xls> .
+
+<stm10>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist5> a dcat:Distribution ;
+                 <stm10> <json> .
+
+<stm11>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist6> a dcat:Distribution ;
+                 <stm11> <ttl> .
+
+<stm12>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist6> a dcat:Distribution ;
+                 <stm12> <rdf> .
+
+<stm13>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist7> a dcat:Distribution ;
+                 <stm13> <txt> .
+
+<stm14>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist7> a dcat:Distribution ;
+                 <stm14> <xml> .
+
+<stm15>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist8> a dcat:Distribution ;
+                 <stm15> <csv> .
+
+<stm16>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist8> a dcat:Distribution ;
+                 <stm16> <xls> .
+
+<stm17>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist9> a dcat:Distribution ;
+                 <stm17> <json> .
+
+<stm18>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist9> a dcat:Distribution ;
+                 <stm18> <ttl> .
+
+<stm19>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist10> a dcat:Distribution ;
+                 <stm19> <rdf> .
+
+<stm20>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist10> a dcat:Distribution ;
+                 <stm20> <txt> .
+
+<stm21>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist11> a dcat:Distribution ;
+                 <stm21> <xml> .
+
+<stm22>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist11> a dcat:Distribution ;
+                 <stm22> <csv> .
+
+<stm23>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist12> a dcat:Distribution ;
+                 <stm23> <xls> .
+
+<stm24>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist12> a dcat:Distribution ;
+                 <stm24> <json> .
+
+<stm25>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist13> a dcat:Distribution ;
+                 <stm25> <ttl> .
+
+<stm26>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist13> a dcat:Distribution ;
+                 <stm26> <rdf> .
+
+<stm27>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist14> a dcat:Distribution ;
+                 <stm27> <txt> .
+
+<stm28>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist14> a dcat:Distribution ;
+                 <stm28> <xml> .
+
+<stm29>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist15> a dcat:Distribution ;
+                 <stm29> <csv> .
+
+<stm30>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist15> a dcat:Distribution ;
+                 <stm30> <xls> .
+
+<stm31>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist16> a dcat:Distribution ;
+                 <stm31> <json> .
+
+<stm32>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist16> a dcat:Distribution ;
+                 <stm32> <ttl> .
+
+<stm33>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist17> a dcat:Distribution ;
+                 <stm33> <rdf> .
+
+<stm34>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist17> a dcat:Distribution ;
+                 <stm34> <txt> .
+
+<stm35>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist18> a dcat:Distribution ;
+                 <stm35> <xml> .
+
+<stm36>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist18> a dcat:Distribution ;
+                 <stm36> <csv> .
+
+<stm37>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist19> a dcat:Distribution ;
+                 <stm37> <xls> .
+
+<stm38>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist19> a dcat:Distribution ;
+                 <stm38> <json> .
+
+<stm39>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist20> a dcat:Distribution ;
+                 <stm39> <ttl> .
+
+<stm40>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist20> a dcat:Distribution ;
+                 <stm40> <rdf> .
+
+<stm41>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist21> a dcat:Distribution ;
+                 <stm41> <txt> .
+
+<stm42>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist21> a dcat:Distribution ;
+                 <stm42> <xml> .
+
+<stm43>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist22> a dcat:Distribution ;
+                 <stm43> <csv> .
+
+<stm44>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist22> a dcat:Distribution ;
+                 <stm44> <xls> .
+
+<stm45>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist23> a dcat:Distribution ;
+                 <stm45> <json> .
+
+<stm46>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist23> a dcat:Distribution ;
+                 <stm46> <ttl> .
+
+<stm47>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist24> a dcat:Distribution ;
+                 <stm47> <rdf> .
+
+<stm48>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist24> a dcat:Distribution ;
+                 <stm48> <txt> .
+
+<stm49>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist25> a dcat:Distribution ;
+                 <stm49> <xml> .
+
+<stm50>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist25> a dcat:Distribution ;
+                 <stm50> <csv> .
+
+<stm51>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist26> a dcat:Distribution ;
+                 <stm51> <xls> .
+
+<stm52>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist26> a dcat:Distribution ;
+                 <stm52> <json> .
+
+<stm53>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist27> a dcat:Distribution ;
+                 <stm53> <ttl> .
+
+<stm54>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist27> a dcat:Distribution ;
+                 <stm54> <rdf> .
+
+<stm55>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist28> a dcat:Distribution ;
+                 <stm55> <txt> .
+
+<stm56>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist28> a dcat:Distribution ;
+                 <stm56> <xml> .
+
+<stm57>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist29> a dcat:Distribution ;
+                 <stm57> <csv> .
+
+<stm58>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist29> a dcat:Distribution ;
+                 <stm58> <xls> .
+
+<stm59>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist30> a dcat:Distribution ;
+                 <stm59> <json> .
+
+<stm60>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist30> a dcat:Distribution ;
+                 <stm60> <ttl> .
+
+<stm61>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist31> a dcat:Distribution ;
+                 <stm61> <rdf> .
+
+<stm62>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist31> a dcat:Distribution ;
+                 <stm62> <txt> .
+
+<stm63>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist32> a dcat:Distribution ;
+                 <stm63> <xml> .
+
+<stm64>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist32> a dcat:Distribution ;
+                 <stm64> <csv> .
+
+<stm65>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist33> a dcat:Distribution ;
+                 <stm65> <xls> .
+
+<stm66>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist33> a dcat:Distribution ;
+                 <stm66> <json> .
+
+<stm67>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist34> a dcat:Distribution ;
+                 <stm67> <ttl> .
+
+<stm68>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist34> a dcat:Distribution ;
+                 <stm68> <rdf> .
+
+<stm69>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist35> a dcat:Distribution ;
+                 <stm69> <txt> .
+
+<stm70>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist35> a dcat:Distribution ;
+                 <stm70> <xml> .
+
+<stm71>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist36> a dcat:Distribution ;
+                 <stm71> <csv> .
+
+<stm72>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist36> a dcat:Distribution ;
+                 <stm72> <xls> .
+
+<stm73>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist37> a dcat:Distribution ;
+                 <stm73> <json> .
+
+<stm74>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist37> a dcat:Distribution ;
+                 <stm74> <ttl> .
+
+<stm75>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist38> a dcat:Distribution ;
+                 <stm75> <rdf> .
+
+<stm76>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist38> a dcat:Distribution ;
+                 <stm76> <txt> .
+
+<stm77>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist39> a dcat:Distribution ;
+                 <stm77> <xml> .
+
+<stm78>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist39> a dcat:Distribution ;
+                 <stm78> <csv> .
+
+<stm79>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist40> a dcat:Distribution ;
+                 <stm79> <xls> .
+
+<stm80>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist40> a dcat:Distribution ;
+                 <stm80> <json> .
+
+<stm81>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist41> a dcat:Distribution ;
+                 <stm81> <ttl> .
+
+<stm82>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist41> a dcat:Distribution ;
+                 <stm82> <rdf> .
+
+<stm83>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist42> a dcat:Distribution ;
+                 <stm83> <txt> .
+
+<stm84>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist42> a dcat:Distribution ;
+                 <stm84> <xml> .
+
+<stm85>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist43> a dcat:Distribution ;
+                 <stm85> <csv> .
+
+<stm86>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist43> a dcat:Distribution ;
+                 <stm86> <xls> .
+
+<stm87>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist44> a dcat:Distribution ;
+                 <stm87> <json> .
+
+<stm88>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist44> a dcat:Distribution ;
+                 <stm88> <ttl> .
+
+<stm89>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist45> a dcat:Distribution ;
+                 <stm89> <rdf> .
+
+<stm90>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist45> a dcat:Distribution ;
+                 <stm90> <txt> .
+
+<stm91>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist46> a dcat:Distribution ;
+                 <stm91> <xml> .
+
+<stm92>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist46> a dcat:Distribution ;
+                 <stm92> <csv> .
+
+<stm93>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist47> a dcat:Distribution ;
+                 <stm93> <xls> .
+
+<stm94>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist47> a dcat:Distribution ;
+                 <stm94> <json> .
+
+<stm95>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist48> a dcat:Distribution ;
+                 <stm95> <ttl> .
+
+<stm96>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist48> a dcat:Distribution ;
+                 <stm96> <rdf> .
+
+<stm97>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist49> a dcat:Distribution ;
+                 <stm97> <txt> .
+
+<stm98>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist49> a dcat:Distribution ;
+                 <stm98> <xml> .
+
+<stm99>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist50> a dcat:Distribution ;
+                 <stm99> <csv> .
+
+<stm100>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist50> a dcat:Distribution ;
+                 <stm100> <xls> .
+

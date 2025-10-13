@@ -1,0 +1,57 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix :      <http://example.org/ns#> . 
+
+<Dist1> a dcat:Distribution .
+
+<< <Dist1> dct:format <csv> ~ _:stm1 >> dct:source <DMP> ; adms:status "planned" .
+<Dist1> dct:format <csv> .
+
+<Dist1> a dcat:Distribution .
+
+<< <Dist1> dct:format <xls> ~ _:stm2 >> dct:source <DMP> ; adms:status "planned" .
+<Dist1> dct:format <xls> .
+
+<Dist2> a dcat:Distribution .
+
+<< <Dist2> dct:format <json> ~ _:stm3 >> dct:source <DMP> ; adms:status "planned" .
+<Dist2> dct:format <json> .
+
+<Dist2> a dcat:Distribution .
+
+<< <Dist2> dct:format <ttl> ~ _:stm4 >> dct:source <DMP> ; adms:status "planned" .
+<Dist2> dct:format <ttl> .
+
+<Dist3> a dcat:Distribution .
+
+<< <Dist3> dct:format <rdf> ~ _:stm5 >> dct:source <DMP> ; adms:status "planned" .
+<Dist3> dct:format <rdf> .
+
+<Dist3> a dcat:Distribution .
+
+<< <Dist3> dct:format <txt> ~ _:stm6 >> dct:source <DMP> ; adms:status "planned" .
+<Dist3> dct:format <txt> .
+
+<Dist4> a dcat:Distribution .
+
+<< <Dist4> dct:format <xml> ~ _:stm7 >> dct:source <DMP> ; adms:status "planned" .
+<Dist4> dct:format <xml> .
+
+<Dist4> a dcat:Distribution .
+
+<< <Dist4> dct:format <csv> ~ _:stm8 >> dct:source <DMP> ; adms:status "planned" .
+<Dist4> dct:format <csv> .
+
+<Dist5> a dcat:Distribution .
+
+<< <Dist5> dct:format <xls> ~ _:stm9 >> dct:source <DMP> ; adms:status "planned" .
+<Dist5> dct:format <xls> .
+
+<Dist5> a dcat:Distribution .
+
+<< <Dist5> dct:format <json> ~ _:stm10 >> dct:source <DMP> ; adms:status "planned" .
+<Dist5> dct:format <json> .
+

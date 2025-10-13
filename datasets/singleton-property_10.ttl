@@ -1,0 +1,87 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix :      <http://example.org/ns#> . 
+
+<stm1>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist1> a dcat:Distribution ;
+                 <stm1> <csv> .
+
+<stm2>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist1> a dcat:Distribution ;
+                 <stm2> <xls> .
+
+<stm3>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist2> a dcat:Distribution ;
+                 <stm3> <json> .
+
+<stm4>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist2> a dcat:Distribution ;
+                 <stm4> <ttl> .
+
+<stm5>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist3> a dcat:Distribution ;
+                 <stm5> <rdf> .
+
+<stm6>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist3> a dcat:Distribution ;
+                 <stm6> <txt> .
+
+<stm7>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist4> a dcat:Distribution ;
+                 <stm7> <xml> .
+
+<stm8>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist4> a dcat:Distribution ;
+                 <stm8> <csv> .
+
+<stm9>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist5> a dcat:Distribution ;
+                 <stm9> <xls> .
+
+<stm10>
+    rdf:singletonPropertyOf dct:format ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist5> a dcat:Distribution ;
+                 <stm10> <json> .
+

@@ -1,0 +1,9 @@
+<%%distribution%%> a dcat:Distribution . 
+
+_:%%statement%%
+    a rdf:Statement ;
+    rdf:subject <%%distribution%%> ;
+    rdf:predicate dct:format ;
+    rdf:object <%%format%%> ;
+    dct:source <DMP> ;
+    adms:status "planned" .

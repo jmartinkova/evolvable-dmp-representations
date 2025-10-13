@@ -1,0 +1,107 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix :      <http://example.org/ns#> . 
+
+<Dist1> a dcat:Distribution . 
+
+_:stm1
+    a rdf:Statement ;
+    rdf:subject <Dist1> ;
+    rdf:predicate dct:format ;
+    rdf:object <csv> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist1> a dcat:Distribution . 
+
+_:stm2
+    a rdf:Statement ;
+    rdf:subject <Dist1> ;
+    rdf:predicate dct:format ;
+    rdf:object <xls> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist2> a dcat:Distribution . 
+
+_:stm3
+    a rdf:Statement ;
+    rdf:subject <Dist2> ;
+    rdf:predicate dct:format ;
+    rdf:object <json> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist2> a dcat:Distribution . 
+
+_:stm4
+    a rdf:Statement ;
+    rdf:subject <Dist2> ;
+    rdf:predicate dct:format ;
+    rdf:object <ttl> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist3> a dcat:Distribution . 
+
+_:stm5
+    a rdf:Statement ;
+    rdf:subject <Dist3> ;
+    rdf:predicate dct:format ;
+    rdf:object <rdf> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist3> a dcat:Distribution . 
+
+_:stm6
+    a rdf:Statement ;
+    rdf:subject <Dist3> ;
+    rdf:predicate dct:format ;
+    rdf:object <txt> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist4> a dcat:Distribution . 
+
+_:stm7
+    a rdf:Statement ;
+    rdf:subject <Dist4> ;
+    rdf:predicate dct:format ;
+    rdf:object <xml> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist4> a dcat:Distribution . 
+
+_:stm8
+    a rdf:Statement ;
+    rdf:subject <Dist4> ;
+    rdf:predicate dct:format ;
+    rdf:object <csv> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist5> a dcat:Distribution . 
+
+_:stm9
+    a rdf:Statement ;
+    rdf:subject <Dist5> ;
+    rdf:predicate dct:format ;
+    rdf:object <xls> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
+<Dist5> a dcat:Distribution . 
+
+_:stm10
+    a rdf:Statement ;
+    rdf:subject <Dist5> ;
+    rdf:predicate dct:format ;
+    rdf:object <json> ;
+    dct:source <DMP> ;
+    adms:status "planned" .
+
