@@ -1,7 +1,0 @@
-<%%statement%%>
-    rdf:singletonPropertyOf dct:format ;
-    dct:source <DMP> ;
-    adms:status "planned" .
-
-<%%distribution%%> a dcat:Distribution ;
-                 <%%statement%%> <%%format%%> .

@@ -1,9 +1,0 @@
-<%%distribution%%>
-    a dcat:Distribution ;
-    :has_format <%%statement%%> .
-
-<%%statement%%>
-    a :Format_Relation ;
-    dct:format <%%format%%> ;
-    dct:source <DMP> ;
-    adms:status "planned" .

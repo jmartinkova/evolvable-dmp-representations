@@ -21,7 +21,6 @@ This repository connects a conceptual approach to evolving data management plans
 | `benchmark/benchmark.py`, `benchmark/ParseBenchmark.java` | Python orchestration and Java streaming parsing harness |
 | `benchmark/calculate-metrics.py` | Derivation of the reported metrics |
 | `benchmark/results/final/` | Final measurements, metadata, summaries, metrics and logs |
-| `packaging-checks.json` | Checks performed when organizing these supplied materials |
 
 Repository preparation preserved the research inputs and recorded results. Only script defaults were adjusted for the directory layout and portable Jena executable selection; a stale generator comment was removed. Historical command paths in saved metadata describe the original experiment and have not been rewritten.
 
