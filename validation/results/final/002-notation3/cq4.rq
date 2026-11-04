@@ -1,5 +1,0 @@
-PREFIX ex: <https://example.org/example/>
-PREFIX dmp: <https://example.org/dmp-vocab/>
-PREFIX adms: <http://www.w3.org/ns/adms#>
-PREFIX dct: <http://purl.org/dc/terms/>
-SELECT DISTINCT ?statement WHERE { ?i2 a dmp:StatementInclusion; dmp:version ex:V2; dmp:statement ?statement . FILTER NOT EXISTS { ?i1 a dmp:StatementInclusion; dmp:version ex:V1; dmp:statement ?statement } }

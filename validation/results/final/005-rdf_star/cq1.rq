@@ -1,9 +1,0 @@
-PREFIX ex: <https://example.org/example/>
-PREFIX dmp: <https://example.org/dmp-vocab/>
-PREFIX adms: <http://www.w3.org/ns/adms#>
-PREFIX dct: <http://purl.org/dc/terms/>
-SELECT ?subject ?predicate ?object ?state WHERE { ?i a dmp:StatementInclusion; dmp:version ex:V2; dmp:statement ?statement; adms:status ?state . VALUES ?state { dmp:Planned dmp:Completed dmp:Undefined } 
- BIND(SUBJECT(?statement) AS ?subject)
- BIND(PREDICATE(?statement) AS ?predicate)
- BIND(OBJECT(?statement) AS ?object)
-}

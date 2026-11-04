@@ -1,9 +1,0 @@
-{
-  "kind": "n3",
-  "input": "/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/example/v2/notation3.n3",
-  "sha256": "5a4d84b935217dfc6b5df6eeb9794f087fd42f3f46115ad4433a5c9d75fd72ce",
-  "python": "3.13.11",
-  "comparison": "decode ground single-triple content to S1--S5; distinct rows; ignore ordering",
-  "query_directory": "special-queries/n3",
-  "rdflib_version": "7.6.0"
-}

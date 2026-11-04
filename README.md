@@ -20,9 +20,7 @@ This repository connects a conceptual approach to evolving data management plans
 | `benchmark/generator.py` | Deterministic dataset generator |
 | `benchmark/benchmark.py`, `benchmark/ParseBenchmark.java` | Python orchestration and Java streaming parsing harness |
 | `benchmark/calculate-metrics.py` | Derivation of the reported metrics |
-| `benchmark/results/final/` | Final measurements, metadata, summaries, metrics and logs |
-
-Repository preparation preserved the research inputs and recorded results. Only script defaults were adjusted for the directory layout and portable Jena executable selection; a stale generator comment was removed. Historical command paths in saved metadata describe the original experiment and have not been rewritten.
+| `benchmark/results/final/` | Final measurements |
 
 ## Running example and expected answers
 
@@ -64,7 +62,7 @@ RDF-star content is projected to subject, predicate and object and mapped to S1�
 
 ## Existing DMP
 
-The manually represented document is Pölzler, T. (2023), *Data Management Plan: Making Morality Impartial: An Experimental Investigation of the Veil of Ignorance*, available through [DMPonline public plans](https://dmponline.dcc.ac.uk/public_plans). See `examples/existing-dmp/SOURCE.md`.
+The manually represented document is Pölzler, T. (2023), *Data Management Plan: Making Morality Impartial: An Experimental Investigation of the Veil of Ignorance*, available through [DMPonline public plans](https://dmponline.dcc.ac.uk/public_plans).
 
 This is one proof-of-concept application, not a representative corpus or empirical analysis of observed version histories. The original document is not included in this package.
 
@@ -77,11 +75,9 @@ cd benchmark
 python3 generator.py
 ```
 
-The generator writes `datasets/` and **overwrites matching generated filenames**. Run it on a copy if preserving local edits. The supplied templates and generator reproduced all **32 measured files byte-for-byte** against their recorded SHA-256 hashes. Four additional N3 datasets are generated but were not quantitatively measured with Jena.
-
 ## Reproduce parsing measurements
 
-Install a JDK providing `java` and `javac`, and unpack Jena 5.3.0 and 6.2.0 separately. The original run used Oracle Java SE/HotSpot 25.0.2, Python 3.13.11 and macOS 26.5.1 on ARM64 with ten logical CPUs; exact recorded details are in `benchmark/results/final/metadata.json`.
+Install a JDK providing `java` and `javac`, Jena 5.3.0 and 6.2.0. The original run used Oracle Java SE/HotSpot 25.0.2, Python 3.13.11 and macOS 26.5.1 on ARM64 with ten logical CPUs; exact recorded details are in `benchmark/results/final/`.
 
 From `benchmark/`:
 
@@ -103,21 +99,7 @@ For each file/version combination:
 
 Common supported encodings are measured in both versions; original RDF-star only in 5.3.0 and RDF 1.2 only in 6.2.0. N3 quoted formulae are excluded. Results are written to a new `benchmark-results-*` directory. Keep the same protocol and environment when comparing measurements; the full run is not instantaneous.
 
-## Archived results and metrics
-
-The supplied final benchmark covers 52 file/version combinations and 3120 measured parses. `runs.csv.gz` preserves the complete original CSV, including warm-ups; compression changes no decompressed bytes. `runs-measured.csv` contains the measurement-only export. `summary.csv` reports medians, quartiles and IQR; `metrics.csv` contains derived metrics. Logs, original metadata and the empty `errors.json` are retained.
-
-Recalculate metrics from the repository root:
-
-```bash
-python3 benchmark/calculate-metrics.py \
-  benchmark/results/final/summary.csv \
-  --output benchmark/results/recomputed-metrics.csv
-```
-
-This reproduced the supplied metrics exactly during packaging. To inspect the full raw CSV, decompress a copy with `gzip -dk benchmark/results/final/runs.csv.gz`. The original `filter-runs.py` reads and writes relative to its working directory; run it in a copied result directory containing an uncompressed `runs.csv`, rather than overwriting the archived export.
-
-Metrics:
+## Metrics
 
 - **Inflation:** emitted triple/quad records divided by generated Statement count. These are parser events, not unique stored records or memory consumption.
 - **Parsing time per Statement:** median dataset parsing time divided by Statement count. `median_ms_per_statement` is in milliseconds; multiply by 1000 for microseconds.
@@ -127,8 +109,6 @@ Interpret timing comparisons within the same Jena version. This benchmark does n
 
 ## Citation and licensing
 
-`CITATION.cff` provides basic citation metadata. Add the confirmed repository URL, version, release date and Zenodo DOI after creating an archived release. No DOI or publication status is invented here.
-
-A repository-wide licence has not yet been supplied. Before public release, choose and add appropriate licences for code and data/documentation; preserve third-party attribution and source-DMP terms. See `RELEASE-CHECKLIST.md`.
+`CITATION.cff` TODO: update with final publication details.
 
 Contact: Jana Martínková, jana.martinkova@cvut.cz.
