@@ -1,0 +1,17 @@
+PREFIX ex:   <https://example.org/example/>
+PREFIX dmp:  <https://example.org/dmp-vocab/>
+PREFIX adms: <http://www.w3.org/ns/adms#>
+
+SELECT DISTINCT ?statement
+WHERE {
+    ?inclusionV2 a dmp:StatementInclusion ;
+        dmp:version ex:V2 ;
+        dmp:statement ?statement .
+
+    FILTER NOT EXISTS {
+        ?inclusionV1 a dmp:StatementInclusion ;
+            dmp:version ex:V1 ;
+            dmp:statement ?statement .
+    }
+}
+ORDER BY ?statement

@@ -1,0 +1,8 @@
+<%%dataset%%> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<%%statement%%> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<%%statement%%> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <%%dataset%%> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<%%statement%%> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<%%inclusion%%> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<%%inclusion%%> <https://example.org/dmp-vocab/statement> <%%statement%%> .
+<%%inclusion%%> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<%%inclusion%%> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .

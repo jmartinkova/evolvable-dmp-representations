@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the archived release and accompanying article when available."
+title: "Towards Evolvable Data Management Plans: Representing the Contents — Supporting Materials"
+type: software
+authors:
+  - family-names: Martínková
+    given-names: Jana
+  - family-names: Suchánek
+    given-names: Marek
+  - family-names: Pergl
+    given-names: Robert
+# Add confirmed repository-code, version, date-released and DOI after release.

@@ -1,0 +1,9 @@
+PREFIX ex:   <https://example.org/example/>
+PREFIX dmp:  <https://example.org/dmp-vocab/>
+PREFIX adms: <http://www.w3.org/ns/adms#>
+
+SELECT DISTINCT ?statement ?supersededStatement
+WHERE {
+    ?statement dmp:supersedes ?supersededStatement .
+}
+ORDER BY ?statement ?supersededStatement

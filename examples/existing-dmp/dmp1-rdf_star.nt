@@ -1,0 +1,522 @@
+<http://example.com/id/DMP> <http://purl.org/dc/terms/identifier> "135692"@en .
+<http://example.com/id/DMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/DataManagementPlan> .
+<http://example.com/id/DMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/DMP> .
+<http://example.com/id/DMPStandard> <http://purl.org/dc/terms/title> "Horizon Europe Template"@en .
+<http://example.com/id/DMPStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
+<< <http://example.com/id/project> <https://example.org/dmp-vocab/hasDataManagementPlan> <http://example.com/id/DMP> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S001_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S001_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <https://example.org/dmp-vocab/hasDataManagementPlan> <http://example.com/id/DMP> >> .
+<http://example.com/id/S001_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <https://example.org/dmp-vocab/hasResearch> <http://example.com/id/research> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S002_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S002_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S002_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <https://example.org/dmp-vocab/hasResearch> <http://example.com/id/research> >> .
+<http://example.com/id/S002_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://purl.org/dc/terms/title> " Making Morality Impartial: An Experimental Investigation of the Veil of ignorance "@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S003_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S003_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://purl.org/dc/terms/title> " Making Morality Impartial: An Experimental Investigation of the Veil of ignorance "@en >> .
+<http://example.com/id/S003_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://example.com/id/attributionCreator> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S004_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S004_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://example.com/id/attributionCreator> >> .
+<http://example.com/id/S004_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://example.com/id/attributionInvestigator> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S005_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S005_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://example.com/id/attributionInvestigator> >> .
+<http://example.com/id/S005_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://example.com/id/attributionDataManager> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S006_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S006_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://example.com/id/attributionDataManager> >> .
+<http://example.com/id/S006_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://example.com/id/attributionProjectAdministrator> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S007_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S007_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://example.com/id/attributionProjectAdministrator> >> .
+<http://example.com/id/S007_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://xmlns.com/foaf/0.1/fundedBy> <http://example.com/id/funder> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S008_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S008_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://xmlns.com/foaf/0.1/fundedBy> <http://example.com/id/funder> >> .
+<http://example.com/id/S008_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://schema.org/funder> <http://example.com/id/funder> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S009_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S009_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://schema.org/funder> <http://example.com/id/funder> >> .
+<http://example.com/id/S009_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://purl.org/dc/terms/description> "We are living in an age of increased moral disagreement and polarization. One explanation for this trend is partiality. People on one or both sides of contested social issue (abortion, COVID-19, climate change, etc.) do not give equal or adequate weight to the interests of all those concerned. Their views are based on bias or prejudice. Finding ways of increasing impartiality may therefore be one of the most important tasks that humanity currently faces. My project attempts to contribute to this task. In particular, I will investigate one particular device that philosophers have used to promote impartial reasoning, namely the so called “veil of ignorance” thought experiment — an attempt to abstract from knowledge about one’s gender, race, income and other morally irrelevant characteristics that might distort one’s judgments. Previous research has only focused on people’s actual choices behind the veil of ignorance. My project, in contrast, will investigate the methodological appropriateness of this thought experiment. (1) How robust is the VOI (i.e. to what extent are the judgments people arrive at by engaging in the thought experiment influenced by irrelevant factors)? (2) How effective is the VOI (i.e. to what extent does it fulfil the function it was supposed to fulfil)? (3) What are the larger philosophical implications of these findings? The framework that I will use in investigating these questions is that of experimental philosophy. That is, I will run empirical studies on people’s intuitions to inform philosophical argumentation. Being supervised by leading experts at the Universities of Toky (outgoing phase), Graz (return phase), Oxford (secondment) and Auckland (secondment), my research has the potential to significantly impact a number of debates in both philosophy and psychology — and hopefully, it can also make a small contribution to making morality more impartial in public discourse. "@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S010_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S010_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://purl.org/dc/terms/description> "We are living in an age of increased moral disagreement and polarization. One explanation for this trend is partiality. People on one or both sides of contested social issue (abortion, COVID-19, climate change, etc.) do not give equal or adequate weight to the interests of all those concerned. Their views are based on bias or prejudice. Finding ways of increasing impartiality may therefore be one of the most important tasks that humanity currently faces. My project attempts to contribute to this task. In particular, I will investigate one particular device that philosophers have used to promote impartial reasoning, namely the so called “veil of ignorance” thought experiment — an attempt to abstract from knowledge about one’s gender, race, income and other morally irrelevant characteristics that might distort one’s judgments. Previous research has only focused on people’s actual choices behind the veil of ignorance. My project, in contrast, will investigate the methodological appropriateness of this thought experiment. (1) How robust is the VOI (i.e. to what extent are the judgments people arrive at by engaging in the thought experiment influenced by irrelevant factors)? (2) How effective is the VOI (i.e. to what extent does it fulfil the function it was supposed to fulfil)? (3) What are the larger philosophical implications of these findings? The framework that I will use in investigating these questions is that of experimental philosophy. That is, I will run empirical studies on people’s intuitions to inform philosophical argumentation. Being supervised by leading experts at the Universities of Toky (outgoing phase), Graz (return phase), Oxford (secondment) and Auckland (secondment), my research has the potential to significantly impact a number of debates in both philosophy and psychology — and hopefully, it can also make a small contribution to making morality more impartial in public discourse. "@en >> .
+<http://example.com/id/S010_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://purl.org/dc/terms/temporal> <http://example.com/id/projectDuration> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S011_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S011_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://purl.org/dc/terms/temporal> <http://example.com/id/projectDuration> >> .
+<http://example.com/id/S011_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://schema.org/funding> <http://example.com/id/grant> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S012_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S012_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://schema.org/funding> <http://example.com/id/grant> >> .
+<http://example.com/id/S012_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <http://purl.org/dc/terms/rights> <http://example.com/id/projectRights> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S013_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S013_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <http://purl.org/dc/terms/rights> <http://example.com/id/projectRights> >> .
+<http://example.com/id/S013_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <https://example.org/dmp-vocab/hasObjective> <http://example.com/id/projectObjective1> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S014_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S014_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <https://example.org/dmp-vocab/hasObjective> <http://example.com/id/projectObjective1> >> .
+<http://example.com/id/S014_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <https://example.org/dmp-vocab/hasObjective> <http://example.com/id/projectObjective2> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S015_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S015_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <https://example.org/dmp-vocab/hasObjective> <http://example.com/id/projectObjective2> >> .
+<http://example.com/id/S015_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/project> <https://example.org/dmp-vocab/hasObjective> <http://example.com/id/projectObjective3> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S016_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S016_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/project> <https://example.org/dmp-vocab/hasObjective> <http://example.com/id/projectObjective3> >> .
+<http://example.com/id/S016_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/research> <http://schema.org/result> <http://example.com/id/dataset> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S017_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S017_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S017_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/research> <http://schema.org/result> <http://example.com/id/dataset> >> .
+<http://example.com/id/S017_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/research> <https://example.org/dmp-vocab/numberOfResults> "1"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S018_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S018_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/research> <https://example.org/dmp-vocab/numberOfResults> "1"@en >> .
+<http://example.com/id/S018_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/person-0000-0002-4311-0897> <http://xmlns.com/foaf/0.1/firstName> " Thomas "@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S019_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S019_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/person-0000-0002-4311-0897> <http://xmlns.com/foaf/0.1/firstName> " Thomas "@en >> .
+<http://example.com/id/S019_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/person-0000-0002-4311-0897> <http://xmlns.com/foaf/0.1/surname> " Pölzler "@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S020_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S020_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/person-0000-0002-4311-0897> <http://xmlns.com/foaf/0.1/surname> " Pölzler "@en >> .
+<http://example.com/id/S020_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/person-0000-0002-4311-0897> <http://schema.org/affiliation> "Other "@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S021_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S021_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/person-0000-0002-4311-0897> <http://schema.org/affiliation> "Other "@en >> .
+<http://example.com/id/S021_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/attributionCreator> <http://www.w3.org/ns/prov#agent> <http://example.com/id/person-0000-0002-4311-0897> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S022_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S022_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/attributionCreator> <http://www.w3.org/ns/prov#agent> <http://example.com/id/person-0000-0002-4311-0897> >> .
+<http://example.com/id/S022_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/attributionCreator> <http://www.w3.org/ns/dcat#hadRole> <http://purl.obolibrary.org/obo/CRO_0000107> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S023_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S023_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/attributionCreator> <http://www.w3.org/ns/dcat#hadRole> <http://purl.obolibrary.org/obo/CRO_0000107> >> .
+<http://example.com/id/S023_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/attributionInvestigator> <http://www.w3.org/ns/prov#agent> <http://example.com/id/person-0000-0002-4311-0897> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S024_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S024_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/attributionInvestigator> <http://www.w3.org/ns/prov#agent> <http://example.com/id/person-0000-0002-4311-0897> >> .
+<http://example.com/id/S024_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/attributionInvestigator> <http://www.w3.org/ns/dcat#hadRole> <http://purl.org/credit/ontology#CREDIT_00000005> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S025_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S025_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/attributionInvestigator> <http://www.w3.org/ns/dcat#hadRole> <http://purl.org/credit/ontology#CREDIT_00000005> >> .
+<http://example.com/id/S025_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/attributionDataManager> <http://www.w3.org/ns/prov#agent> <http://example.com/id/person-0000-0002-4311-0897> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S026_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S026_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/attributionDataManager> <http://www.w3.org/ns/prov#agent> <http://example.com/id/person-0000-0002-4311-0897> >> .
+<http://example.com/id/S026_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/attributionDataManager> <http://www.w3.org/ns/dcat#hadRole> <http://purl.obolibrary.org/obo/CRO_0000015> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S027_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S027_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/attributionDataManager> <http://www.w3.org/ns/dcat#hadRole> <http://purl.obolibrary.org/obo/CRO_0000015> >> .
+<http://example.com/id/S027_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/attributionProjectAdministrator> <http://www.w3.org/ns/prov#agent> <http://example.com/id/person-0000-0002-4311-0897> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S028_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S028_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/attributionProjectAdministrator> <http://www.w3.org/ns/prov#agent> <http://example.com/id/person-0000-0002-4311-0897> >> .
+<http://example.com/id/S028_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/attributionProjectAdministrator> <http://www.w3.org/ns/dcat#hadRole> <http://purl.org/credit/ontology#CREDIT_00000007> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S029_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S029_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/attributionProjectAdministrator> <http://www.w3.org/ns/dcat#hadRole> <http://purl.org/credit/ontology#CREDIT_00000007> >> .
+<http://example.com/id/S029_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/DMP> <https://example.org/dmp-vocab/usesTemplate> <http://example.com/id/DMPStandard> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S030_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S030_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/DMP> <https://example.org/dmp-vocab/usesTemplate> <http://example.com/id/DMPStandard> >> .
+<http://example.com/id/S030_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/reusingData> "No"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S031_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S031_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S031_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/reusingData> "No"@en >> .
+<http://example.com/id/S031_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <http://www.w3.org/ns/dcat#distribution> <http://example.com/id/distribution> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S032_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S032_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S032_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <http://www.w3.org/ns/dcat#distribution> <http://example.com/id/distribution> >> .
+<http://example.com/id/S032_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <http://www.w3.org/ns/dcat#theme> <http://example.com/id/concept1OfDataset> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S033_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S033_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <http://www.w3.org/ns/dcat#theme> <http://example.com/id/concept1OfDataset> >> .
+<http://example.com/id/S033_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <http://www.w3.org/ns/dcat#theme> <http://example.com/id/concept2OfDataset> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S034_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S034_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <http://www.w3.org/ns/dcat#theme> <http://example.com/id/concept2OfDataset> >> .
+<http://example.com/id/S034_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <http://www.w3.org/ns/dcat#theme> <http://example.com/id/concept3OfDataset> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S035_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S035_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <http://www.w3.org/ns/dcat#theme> <http://example.com/id/concept3OfDataset> >> .
+<http://example.com/id/S035_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/fulfilObjective> <http://example.com/id/projectObjective1> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S036_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S036_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/fulfilObjective> <http://example.com/id/projectObjective1> >> .
+<http://example.com/id/S036_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/fulfilObjective> <http://example.com/id/projectObjective2> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S037_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S037_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/fulfilObjective> <http://example.com/id/projectObjective2> >> .
+<http://example.com/id/S037_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/fulfilObjective> <http://example.com/id/projectObjective3> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S038_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S038_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/fulfilObjective> <http://example.com/id/projectObjective3> >> .
+<http://example.com/id/S038_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <http://purl.org/dc/terms/provenance> <http://example.com/id/dataProvenance> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S039_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S039_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S039_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <http://purl.org/dc/terms/provenance> <http://example.com/id/dataProvenance> >> .
+<http://example.com/id/S039_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/isUseableFor> <http://example.com/id/usableForWho> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S040_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S040_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/isUseableFor> <http://example.com/id/usableForWho> >> .
+<http://example.com/id/S040_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <http://purl.org/spar/datacite/hasIdentifier> <http://example.com/id/dataIdentifier> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S041_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S041_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S041_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <http://purl.org/spar/datacite/hasIdentifier> <http://example.com/id/dataIdentifier> >> .
+<http://example.com/id/S041_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/hasMetadata> <http://example.com/id/metadata> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S042_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S042_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S042_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/hasMetadata> <http://example.com/id/metadata> >> .
+<http://example.com/id/S042_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/hasAvailability> <http://example.com/id/datasetAvailability> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S043_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S043_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S043_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/hasAvailability> <http://example.com/id/datasetAvailability> >> .
+<http://example.com/id/S043_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <http://purl.org/dc/terms/conformsTo> <http://example.com/id/methodologyStandard> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S044_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S044_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S044_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <http://purl.org/dc/terms/conformsTo> <http://example.com/id/methodologyStandard> >> .
+<http://example.com/id/S044_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#dataQualityAssurance> "All of the project’s studies will involve extensive pre-tests, so as to identify potential improvements of their designs before they are actually conducted. To prevent “insufficient effort responding” (e.g., Huang et al. 2012) we will keep surveys as short and simple as possible and only accept participants who have an approval rate above 95% in online crowdsourcing recruitment. Participants who nevertheless show insufficient effort will be identified by a number of measures, such as attention checks, comprehension checks and open-ended questions, and subsequently excluded from analysis (Pölzler 2022). To ensure a high rate of replicability we will make sure to have at least 90% power for effects of interest, d = 0.4."@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S045_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S045_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S045_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#dataQualityAssurance> "All of the project’s studies will involve extensive pre-tests, so as to identify potential improvements of their designs before they are actually conducted. To prevent “insufficient effort responding” (e.g., Huang et al. 2012) we will keep surveys as short and simple as possible and only accept participants who have an approval rate above 95% in online crowdsourcing recruitment. Participants who nevertheless show insufficient effort will be identified by a number of measures, such as attention checks, comprehension checks and open-ended questions, and subsequently excluded from analysis (Pölzler 2022). To ensure a high rate of replicability we will make sure to have at least 90% power for effects of interest, d = 0.4."@en >> .
+<http://example.com/id/S045_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <http://schema.org/estimatedCost> <http://example.com/id/fairDataCost> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S046_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S046_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <http://schema.org/estimatedCost> <http://example.com/id/fairDataCost> >> .
+<http://example.com/id/S046_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/hasPreservation> <http://example.com/id/datasetPreservation> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S047_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S047_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S047_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/hasPreservation> <http://example.com/id/datasetPreservation> >> .
+<http://example.com/id/S047_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#backupType> "In addition to being stored in OSF, all data will also be stored on a USB flash drive that will be managed by the project leader at the location at which the research currently takes place (Tokyo, Oxford, Wellington or Graz). After the end of the project the flash drive will be stored at the Department of Philosophy of the University of Graz."@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S048_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S048_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S048_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#backupType> "In addition to being stored in OSF, all data will also be stored on a USB flash drive that will be managed by the project leader at the location at which the research currently takes place (Tokyo, Oxford, Wellington or Graz). After the end of the project the flash drive will be stored at the Department of Philosophy of the University of Graz."@en >> .
+<http://example.com/id/S048_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#hasSecurityPrivacy> <http://example.com/id/datasetSecurityPrivacy> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S049_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S049_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S049_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#hasSecurityPrivacy> <http://example.com/id/datasetSecurityPrivacy> >> .
+<http://example.com/id/S049_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#ethicalIssueDescription> "The only potential limitation to data-sharing could arise in the context of potential qualitative research which reveals demographic facts that might be used to identify participants. In the case of such research I will proceed as described above: de-identify the data (e.g., exclude references to a participant’s age or location) before uploading it to OSF, and, upon completion of the research, store the original data on a password-protected section of the above-mentioned flash-drive which can only be accessed by contributing researchers."@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S050_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S050_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S050_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#ethicalIssueDescription> "The only potential limitation to data-sharing could arise in the context of potential qualitative research which reveals demographic facts that might be used to identify participants. In the case of such research I will proceed as described above: de-identify the data (e.g., exclude references to a participant’s age or location) before uploading it to OSF, and, upon completion of the research, store the original data on a password-protected section of the above-mentioned flash-drive which can only be accessed by contributing researchers."@en >> .
+<http://example.com/id/S050_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#personalData> "Yes"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S051_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S051_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://w3id.org/dcso/ns/core#personalData> "Yes"@en >> .
+<http://example.com/id/S051_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/includeInformedConsent> <http://example.com/id/datasetInformedConsent> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S052_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S052_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S052_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/includeInformedConsent> <http://example.com/id/datasetInformedConsent> >> .
+<http://example.com/id/S052_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/usableForThirdParties> "Yes"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S053_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S053_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S053_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/usableForThirdParties> "Yes"@en >> .
+<http://example.com/id/S053_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/distribution> <http://purl.org/dc/terms/format> <http://example.com/id/formatOfDistribution1> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S054_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S054_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S054_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/distribution> <http://purl.org/dc/terms/format> <http://example.com/id/formatOfDistribution1> >> .
+<http://example.com/id/S054_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/distribution> <http://purl.org/dc/terms/format> <http://example.com/id/formatOfDistribution2> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S055_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S055_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S055_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/distribution> <http://purl.org/dc/terms/format> <http://example.com/id/formatOfDistribution2> >> .
+<http://example.com/id/S055_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataset> <https://example.org/dmp-vocab/expectedTotalSize> "Less than 100 MB, including project outputs"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S056_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S056_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataset> <https://example.org/dmp-vocab/expectedTotalSize> "Less than 100 MB, including project outputs"@en >> .
+<http://example.com/id/S056_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/distribution> <http://www.w3.org/ns/dcat#accessService> <http://example.com/id/osf> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S057_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S057_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S057_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/distribution> <http://www.w3.org/ns/dcat#accessService> <http://example.com/id/osf> >> .
+<http://example.com/id/S057_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/distribution> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S058_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S058_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S058_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/distribution> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> >> .
+<http://example.com/id/S058_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/dataProvenance> <http://purl.org/dc/terms/conformsTo> <http://example.com/id/dataProvenanceStandard> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S059_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S059_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S059_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/dataProvenance> <http://purl.org/dc/terms/conformsTo> <http://example.com/id/dataProvenanceStandard> >> .
+<http://example.com/id/S059_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadata> <http://purl.org/spar/fabio/hasRepresentation> <http://example.com/id/metadataDocument> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S060_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S060_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S060_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadata> <http://purl.org/spar/fabio/hasRepresentation> <http://example.com/id/metadataDocument> >> .
+<http://example.com/id/S060_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadata> <https://example.org/dmp-vocab/hasSearchKeywords> "Yes "@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S061_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S061_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S061_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadata> <https://example.org/dmp-vocab/hasSearchKeywords> "Yes "@en >> .
+<http://example.com/id/S061_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadata> <https://example.org/dmp-vocab/hasAvailability> <http://example.com/id/metadataAvailability> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S062_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S062_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S062_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadata> <https://example.org/dmp-vocab/hasAvailability> <http://example.com/id/metadataAvailability> >> .
+<http://example.com/id/S062_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadata> <http://purl.org/spar/datacite/hasIdentifier> <http://example.com/id/metadataIdentifier> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S063_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S063_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S063_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadata> <http://purl.org/spar/datacite/hasIdentifier> <http://example.com/id/metadataIdentifier> >> .
+<http://example.com/id/S063_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "ORCID"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S064_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S064_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S064_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "ORCID"@en >> .
+<http://example.com/id/S064_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataDocument> <http://purl.org/dc/terms/format> <http://example.com/id/formatOfMetadataDocument> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S065_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S065_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S065_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataDocument> <http://purl.org/dc/terms/format> <http://example.com/id/formatOfMetadataDocument> >> .
+<http://example.com/id/S065_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/isIndexedBy> <http://example.com/id/indexingSoftware> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S066_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S066_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S066_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/isIndexedBy> <http://example.com/id/indexingSoftware> >> .
+<http://example.com/id/S066_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/osf> <https://example.org/dmp-vocab/isTrusted> "Yes"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S067_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S067_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/osf> <https://example.org/dmp-vocab/isTrusted> "Yes"@en >> .
+<http://example.com/id/S067_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/person-0000-0002-4311-0897> <https://example.org/dmp-vocab/accountDescription> "I have an account, registered under my name, which I have used for several years."@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S068_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S068_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/person-0000-0002-4311-0897> <https://example.org/dmp-vocab/accountDescription> "I have an account, registered under my name, which I have used for several years."@en >> .
+<http://example.com/id/S068_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/osf> <https://example.org/dmp-vocab/assignsIdentifier> <http://purl.org/spar/datacite/doi> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S069_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S069_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/osf> <https://example.org/dmp-vocab/assignsIdentifier> <http://purl.org/spar/datacite/doi> >> .
+<http://example.com/id/S069_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAvailability> <https://example.org/dmp-vocab/accessibility> <http://example.com/id/datasetAccessibility> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S070_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S070_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S070_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAvailability> <https://example.org/dmp-vocab/accessibility> <http://example.com/id/datasetAccessibility> >> .
+<http://example.com/id/S070_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAvailability> <https://example.org/dmp-vocab/hasEmbargo> <http://example.com/id/datasetEmbargo> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S071_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S071_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S071_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAvailability> <https://example.org/dmp-vocab/hasEmbargo> <http://example.com/id/datasetEmbargo> >> .
+<http://example.com/id/S071_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAvailability> <https://example.org/dmp-vocab/availabilityDuration> <http://example.com/id/datasetAvailabilityDuration> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S072_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S072_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S072_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAvailability> <https://example.org/dmp-vocab/availabilityDuration> <http://example.com/id/datasetAvailabilityDuration> >> .
+<http://example.com/id/S072_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAvailability> <https://example.org/dmp-vocab/availableInPublicDomain> " All data will be made freely available in the public domain via OSF."@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S073_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S073_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S073_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAvailability> <https://example.org/dmp-vocab/availableInPublicDomain> " All data will be made freely available in the public domain via OSF."@en >> .
+<http://example.com/id/S073_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAccessibility> <https://w3id.org/dcso/ns/core#dataAccess> "open"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S074_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S074_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S074_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAccessibility> <https://w3id.org/dcso/ns/core#dataAccess> "open"@en >> .
+<http://example.com/id/S074_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAccessibility> <https://example.org/dmp-vocab/legalReason> " Some qualitative data may be de-identified to protect the anonymity of research participants, based on de-identification rules that are developed prior to the respective studies. For example, if participants provide information about their age or location in the course of a qualitative study this data might be removed prior to the data being made openly available"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S075_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S075_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAccessibility> <https://example.org/dmp-vocab/legalReason> " Some qualitative data may be de-identified to protect the anonymity of research participants, based on de-identification rules that are developed prior to the respective studies. For example, if participants provide information about their age or location in the course of a qualitative study this data might be removed prior to the data being made openly available"@en >> .
+<http://example.com/id/S075_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAccessibility> <http://schema.org/target> <http://example.com/id/datasetAccessProtocol> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S076_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S076_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S076_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAccessibility> <http://schema.org/target> <http://example.com/id/datasetAccessProtocol> >> .
+<http://example.com/id/S076_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAccessibility> <https://example.org/dmp-vocab/accessIdentityDetection> "No"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S077_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S077_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S077_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAccessibility> <https://example.org/dmp-vocab/accessIdentityDetection> "No"@en >> .
+<http://example.com/id/S077_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAccessibility> <https://example.org/dmp-vocab/needForAccessRegulator> "No"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S078_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S078_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAccessibility> <https://example.org/dmp-vocab/needForAccessRegulator> "No"@en >> .
+<http://example.com/id/S078_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetEmbargo> <https://example.org/dmp-vocab/isEmbargoApplied> "No"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S079_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S079_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S079_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetEmbargo> <https://example.org/dmp-vocab/isEmbargoApplied> "No"@en >> .
+<http://example.com/id/S079_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetAccessProtocol> <https://example.org/dmp-vocab/usingStandardFreeProtocol> "Yes"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S080_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S080_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S080_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetAccessProtocol> <https://example.org/dmp-vocab/usingStandardFreeProtocol> "Yes"@en >> .
+<http://example.com/id/S080_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataAvailability> <https://example.org/dmp-vocab/accessibility> <http://example.com/id/metadataAccessibility> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S081_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S081_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S081_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataAvailability> <https://example.org/dmp-vocab/accessibility> <http://example.com/id/metadataAccessibility> >> .
+<http://example.com/id/S081_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataAvailability> <https://example.org/dmp-vocab/availabilityDuration> <http://example.com/id/metadataAvailabilityDuration> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S082_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S082_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S082_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataAvailability> <https://example.org/dmp-vocab/availabilityDuration> <http://example.com/id/metadataAvailabilityDuration> >> .
+<http://example.com/id/S082_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataAccessibility> <https://w3id.org/dcso/ns/core#dataAccess> "open"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S083_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S083_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S083_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataAccessibility> <https://w3id.org/dcso/ns/core#dataAccess> "open"@en >> .
+<http://example.com/id/S083_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataAccessibility> <http://schema.org/target> <http://example.com/id/metadataEntryPoint> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S084_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S084_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S084_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataAccessibility> <http://schema.org/target> <http://example.com/id/metadataEntryPoint> >> .
+<http://example.com/id/S084_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "information to enable the users to access the data."@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S085_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S085_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S085_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "information to enable the users to access the data."@en >> .
+<http://example.com/id/S085_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/metadataEntryPoint> <http://schema.org/actionApplication> <http://example.com/id/osf> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S086_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S086_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S086_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/metadataEntryPoint> <http://schema.org/actionApplication> <http://example.com/id/osf> >> .
+<http://example.com/id/S086_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetPreservation> <https://example.org/dmp-vocab/preservationDuration> <http://example.com/id/datasetPreservationDuration> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S087_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S087_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S087_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetPreservation> <https://example.org/dmp-vocab/preservationDuration> <http://example.com/id/datasetPreservationDuration> >> .
+<http://example.com/id/S087_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/datasetPreservation> <http://schema.org/estimatedCost> <http://example.com/id/preservationDataCost> >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S088_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S088_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/datasetPreservation> <http://schema.org/estimatedCost> <http://example.com/id/preservationDataCost> >> .
+<http://example.com/id/S088_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<< <http://example.com/id/distribution> <https://example.org/dmp-vocab/plannedFormatOptions> "XLS or CSV"@en >> <http://purl.org/dc/terms/source> <http://example.com/id/DMP> .
+<http://example.com/id/S089_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<http://example.com/id/S089_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<http://example.com/id/S089_V1> <https://example.org/dmp-vocab/statement> << <http://example.com/id/distribution> <https://example.org/dmp-vocab/plannedFormatOptions> "XLS or CSV"@en >> .
+<http://example.com/id/S089_V1> <https://example.org/dmp-vocab/version> <http://example.com/id/V1> .
+<http://example.com/id/V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/DMPVersion> .
+<http://example.com/id/V1> <https://example.org/dmp-vocab/versionOf> <http://example.com/id/DMP> .
+<http://example.com/id/attributionCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+<http://example.com/id/attributionDataManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+<http://example.com/id/attributionInvestigator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+<http://example.com/id/attributionProjectAdministrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Attribution> .
+<http://example.com/id/cc> <http://purl.org/dc/terms/identifier> <https://creativecommons.org/licenses/by/4.0/> .
+<http://example.com/id/cc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/LicenseDocument> .
+<http://example.com/id/concept1OfDataset> <http://purl.org/dc/terms/description> "psychological"@en .
+<http://example.com/id/concept1OfDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.com/id/concept2OfDataset> <http://purl.org/dc/terms/description> "lay people’s and philosophers’ susceptibility"@en .
+<http://example.com/id/concept2OfDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.com/id/concept3OfDataset> <http://purl.org/dc/terms/description> " Demographic data "@en .
+<http://example.com/id/concept3OfDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.com/id/dataIdentifier> <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/doi> .
+<http://example.com/id/dataIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/datacite/Identifier> .
+<http://example.com/id/dataProvenance> <http://purl.org/dc/terms/description> "Most of the project’s empirical studies will be designed in Qualtrics, an online survey software. Participants of the studies will be recruited from online crowdsourcing pools such as Prolific Academic, mostly in the US. For their time and effort all participants will be compensated at an hourly rate that is above the national minimal income."@en .
+<http://example.com/id/dataProvenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/ProvenanceStatement> .
+<http://example.com/id/dataProvenanceStandard> <http://purl.org/dc/terms/description> "the common standards in psychology and experimental philosophy, i.e., studies will be reported in a journal article which involves a dedicated “Participants” section, specifying how participants were recruited, what number of participants were recruited, why this number of participants was recruited, who the participants were (demographic data), etc."@en .
+<http://example.com/id/dataProvenanceStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
+<http://example.com/id/dataset> <http://purl.org/dc/terms/description> "The data may include qualified references to other data that has been collected in the project. If this is the case (for example, if follow-up studies are conducted to be better able to evaluate explanations of data or cross-cultural research is conducted to test previous findings’ generalizability across different countries) then the scientific links between the datasets will be described on OSF as well as in the resulting pre-prints and journal articles."@en .
+<http://example.com/id/dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Thing> .
+<http://example.com/id/dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<http://example.com/id/datasetAccessProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EntryPoint> .
+<http://example.com/id/datasetAccessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Access> .
+<http://example.com/id/datasetAvailability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Availability> .
+<http://example.com/id/datasetAvailabilityDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/PeriodOfTime> .
+<http://example.com/id/datasetAvailabilityDuration> <https://example.org/dmp-vocab/minimumDuration> "At least ten years"@en .
+<http://example.com/id/datasetEmbargo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Embargo> .
+<http://example.com/id/datasetInformedConsent> <http://purl.org/dc/terms/description> "Yes, each study will involve a consent page. Participants will be asked to agree to the following claims before they can complete the studies: I agree that my personal data (including demographic information), which is collected anonymously during this study, is processed by the University of Graz by means of statistical data analysis for research purposes and used to publish scientific papers. I agree that my anonymized data will be made available in open databases (e.g. in the Open Science Framework; https://osf.io/) indefinitely for the purpose of scientific transparency. I can withdraw my consent to the processing of my data at any time by writing to Dr. Thomas Pölzler, thomas.poelzler@uni-graz.at, University of Graz, Attemsgasse 25/II, 8010 Graz. The revocation does not affect the legality of the data processed until the revocation. I have read the above instructions and I agree to participate. I know that I can cancel my participation at any time without giving reasons"@en .
+<http://example.com/id/datasetInformedConsent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/InformedConsent> .
+<http://example.com/id/datasetPreservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Preservation> .
+<http://example.com/id/datasetPreservationDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/PeriodOfTime> .
+<http://example.com/id/datasetPreservationDuration> <https://example.org/dmp-vocab/minimumDuration> "At least ten years"@en .
+<http://example.com/id/datasetSecurityPrivacy> <http://purl.org/dc/terms/description> "  If the project collects sensitive data then this data will be sufficiently anonymized before being uploaded to OSF. The original sensitive data, stored on the USB flash drive, will be password protected. It can only be accessed by the project leader and co-authors who have collaborated in generating and analysing the data."@en .
+<http://example.com/id/datasetSecurityPrivacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#SecurityPrivacy> .
+<http://example.com/id/distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<http://example.com/id/fairDataCost> <http://rdfs.org/sioc/ns#topic> <http://example.com/id/makingDataFAIR> .
+<http://example.com/id/fairDataCost> <http://schema.org/value> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.com/id/fairDataCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MonetaryAmount> .
+<http://example.com/id/formatOfDistribution1> <http://purl.org/dc/terms/abbreviation> "xls"@en .
+<http://example.com/id/formatOfDistribution1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaTypeOrExtent> .
+<http://example.com/id/formatOfDistribution2> <http://purl.org/dc/terms/abbreviation> "csv"@en .
+<http://example.com/id/formatOfDistribution2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaTypeOrExtent> .
+<http://example.com/id/formatOfMetadataDocument> <http://purl.org/dc/terms/abbreviation> "JSON"@en .
+<http://example.com/id/formatOfMetadataDocument> <http://purl.org/dc/terms/title> "JavaScript Object Notation"@en .
+<http://example.com/id/formatOfMetadataDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/MediaTypeOrExtent> .
+<http://example.com/id/funder> <http://purl.org/dc/terms/title> "European Commission"@en .
+<http://example.com/id/funder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://example.com/id/grant> <http://purl.org/dc/terms/identifier> "101105332 "@en .
+<http://example.com/id/grant> <http://schema.org/funder> <http://example.com/id/funder> .
+<http://example.com/id/grant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Grant> .
+<http://example.com/id/indexingSoftware> <http://purl.org/dc/terms/description> "search engines such as Google"@en .
+<http://example.com/id/indexingSoftware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
+<http://example.com/id/makingDataFAIR> <http://purl.org/dc/terms/description> " making data or other research outputs FAIR"@en .
+<http://example.com/id/makingDataFAIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://example.com/id/metadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/Metadata> .
+<http://example.com/id/metadataAccessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Access> .
+<http://example.com/id/metadataAvailability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Availability> .
+<http://example.com/id/metadataAvailabilityDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/PeriodOfTime> .
+<http://example.com/id/metadataAvailabilityDuration> <https://example.org/dmp-vocab/minimumDuration> "At least ten years"@en .
+<http://example.com/id/metadataDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/MetadataDocument> .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "Date created"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "Date modified"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "Date registered"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "Resource language"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "Resource type"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "Study Description"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "Subjects"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "Tags"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "abstract "@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "author names"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "keywords"@en .
+<http://example.com/id/metadataDocument> <https://example.org/dmp-vocab/containsMetadataElement> "title"@en .
+<http://example.com/id/metadataEntryPoint> <http://purl.org/dc/terms/description> "Each study will be pre-registered on OSF. The pre-registration will provide detailed information about the studies’ experimental design, analyses, rules for excluding participants, etc. In shortened form, much of this information will be included in the resulting pre-prints and journal articles as well. Finally, I will upload all questionnaires in full (in the form of qualtrics-generated pdfs) on OSF to allow other researchers to check and potentially re-use the studies’ materials, such as specific vignettes and questions."@en .
+<http://example.com/id/metadataEntryPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EntryPoint> .
+<http://example.com/id/metadataIdentifier> <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/doi> .
+<http://example.com/id/metadataIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/datacite/Identifier> .
+<http://example.com/id/methodologyStandard> <http://purl.org/dc/terms/description> " inferential statistics, deductive and inductive arguments, etc."@en .
+<http://example.com/id/methodologyStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Standard> .
+<http://example.com/id/osf> <http://purl.org/dc/terms/abbreviation> "OSF"@en .
+<http://example.com/id/osf> <http://purl.org/dc/terms/identifier> <https://osf.io/> .
+<http://example.com/id/osf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#DataService> .
+<http://example.com/id/person-0000-0002-4311-0897> <http://purl.org/dc/terms/identifier> <https://orcid.org/0000-0002-4311-0897> .
+<http://example.com/id/person-0000-0002-4311-0897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.com/id/preservationData> <http://purl.org/dc/terms/description> "preservation Data"@en .
+<http://example.com/id/preservationData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://example.com/id/preservationDataCost> <http://rdfs.org/sioc/ns#topic> <http://example.com/id/preservationData> .
+<http://example.com/id/preservationDataCost> <http://schema.org/value> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.com/id/preservationDataCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MonetaryAmount> .
+<http://example.com/id/project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Project> .
+<http://example.com/id/project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://example.com/id/project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
+<http://example.com/id/projectDuration> <http://purl.org/dc/terms/endDate> "04-10-2026"@en .
+<http://example.com/id/projectDuration> <http://purl.org/dc/terms/startDate> "05-10-2023"@en .
+<http://example.com/id/projectDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/PeriodOfTime> .
+<http://example.com/id/projectObjective1> <http://purl.org/dc/terms/description> "How robust is the VOI (i.e., to what extent are the judgments people arrive at by engaging in the thought experiment (easily or overly) influenced by irrelevant factors) "@en .
+<http://example.com/id/projectObjective1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://example.com/id/projectObjective2> <http://purl.org/dc/terms/description> " How effective is the VOI (i.e., to what extent does it fulfill the (epistemic or illustrative) function it was supposed to fulfill)"@en .
+<http://example.com/id/projectObjective2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://example.com/id/projectObjective3> <http://purl.org/dc/terms/description> " What are the larger philosophical implications of the project’s findings of about the robustness and effectivity of the VOI"@en .
+<http://example.com/id/projectObjective3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://example.com/id/projectRights> <http://purl.org/dc/terms/description> "The above plan creator(s) have agreed that others may use as much of the text of this plan  as they would like in their own plans, and customise it as necessary. You do not need to credit the creator(s) as the source of the language used, but using any of the plan's text does not imply that the creator(s) endorse, or have any relationship to, your project or proposal"@en .
+<http://example.com/id/projectRights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/RightsStatement> .
+<http://example.com/id/research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Action> .
+<http://example.com/id/usableForWho> <http://purl.org/dc/terms/description> "The veil of ignorance thought experiment has been highly prominent in philosophy, at least since Rawls’ publication of A Theory of Justice in 1971, and has recently also been increasingly investigated by empirical researchers, such as experimental economists and psychologists. I therefore expect that the generated data will be of high usefulness outside of the project. In particular, it will be useful to philosophers who have worked on or with the veil of ignorance thought experiment (it will provide information on whether and how the thought experiment may be justifiably employed in philosophical argumentation) and to empirical scientists interested in moral cognition and decision-making (it will provide information of the thought experiment’s reliability and effectiveness)."@en .
+<http://example.com/id/usableForWho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://purl.org/spar/datacite/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/datacite/ResourceIdentifierScheme> .
+<https://example.org/dmp-vocab/Completed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Completed> <http://www.w3.org/2004/02/skos/core#prefLabel> "Completed"@en .
+<https://example.org/dmp-vocab/Deprecated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Deprecated> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deprecated"@en .
+<https://example.org/dmp-vocab/Planned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Planned> <http://www.w3.org/2004/02/skos/core#prefLabel> "Planned"@en .
+<https://example.org/dmp-vocab/Undefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Undefined> <http://www.w3.org/2004/02/skos/core#prefLabel> "Undefined"@en .

@@ -1,0 +1,1414 @@
+@prefix ex:   <https://example.org/example/> .
+@prefix dmp:  <https://example.org/dmp-vocab/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+ex:DMP a dmp:DMP .
+ex:V1 a dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+dmp:Planned a skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+<https://example.org/benchmark/dataset/1> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/1> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/1> <https://example.org/benchmark/statement/1>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/1> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/1> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/2> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/2> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/2> <https://example.org/benchmark/statement/2>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/2> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/2> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/3> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/3> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/3> <https://example.org/benchmark/statement/3>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/3> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/3> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/4> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/4> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/4> <https://example.org/benchmark/statement/4>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/4> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/4> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/5> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/5> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/5> <https://example.org/benchmark/statement/5>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/5> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/5> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/6> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/6> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/6> <https://example.org/benchmark/statement/6>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/6> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/6> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/7> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/7> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/7> <https://example.org/benchmark/statement/7>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/7> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/7> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/8> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/8> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/8> <https://example.org/benchmark/statement/8>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/8> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/8> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/9> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/9> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/9> <https://example.org/benchmark/statement/9>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/9> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/9> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/10> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/10> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/10> <https://example.org/benchmark/statement/10>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/10> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/10> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/11> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/11> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/11> <https://example.org/benchmark/statement/11>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/11> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/11> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/12> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/12> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/12> <https://example.org/benchmark/statement/12>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/12> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/12> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/13> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/13> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/13> <https://example.org/benchmark/statement/13>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/13> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/13> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/14> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/14> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/14> <https://example.org/benchmark/statement/14>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/14> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/14> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/15> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/15> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/15> <https://example.org/benchmark/statement/15>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/15> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/15> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/16> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/16> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/16> <https://example.org/benchmark/statement/16>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/16> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/16> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/17> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/17> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/17> <https://example.org/benchmark/statement/17>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/17> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/17> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/18> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/18> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/18> <https://example.org/benchmark/statement/18>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/18> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/18> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/19> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/19> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/19> <https://example.org/benchmark/statement/19>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/19> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/19> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/20> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/20> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/20> <https://example.org/benchmark/statement/20>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/20> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/20> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/21> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/21> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/21> <https://example.org/benchmark/statement/21>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/21> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/21> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/22> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/22> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/22> <https://example.org/benchmark/statement/22>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/22> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/22> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/23> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/23> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/23> <https://example.org/benchmark/statement/23>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/23> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/23> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/24> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/24> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/24> <https://example.org/benchmark/statement/24>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/24> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/24> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/25> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/25> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/25> <https://example.org/benchmark/statement/25>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/25> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/25> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/26> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/26> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/26> <https://example.org/benchmark/statement/26>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/26> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/26> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/27> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/27> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/27> <https://example.org/benchmark/statement/27>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/27> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/27> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/28> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/28> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/28> <https://example.org/benchmark/statement/28>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/28> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/28> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/29> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/29> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/29> <https://example.org/benchmark/statement/29>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/29> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/29> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/30> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/30> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/30> <https://example.org/benchmark/statement/30>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/30> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/30> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/31> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/31> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/31> <https://example.org/benchmark/statement/31>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/31> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/31> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/32> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/32> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/32> <https://example.org/benchmark/statement/32>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/32> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/32> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/33> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/33> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/33> <https://example.org/benchmark/statement/33>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/33> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/33> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/34> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/34> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/34> <https://example.org/benchmark/statement/34>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/34> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/34> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/35> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/35> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/35> <https://example.org/benchmark/statement/35>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/35> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/35> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/36> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/36> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/36> <https://example.org/benchmark/statement/36>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/36> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/36> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/37> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/37> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/37> <https://example.org/benchmark/statement/37>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/37> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/37> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/38> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/38> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/38> <https://example.org/benchmark/statement/38>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/38> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/38> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/39> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/39> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/39> <https://example.org/benchmark/statement/39>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/39> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/39> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/40> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/40> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/40> <https://example.org/benchmark/statement/40>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/40> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/40> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/41> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/41> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/41> <https://example.org/benchmark/statement/41>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/41> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/41> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/42> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/42> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/42> <https://example.org/benchmark/statement/42>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/42> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/42> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/43> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/43> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/43> <https://example.org/benchmark/statement/43>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/43> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/43> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/44> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/44> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/44> <https://example.org/benchmark/statement/44>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/44> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/44> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/45> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/45> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/45> <https://example.org/benchmark/statement/45>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/45> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/45> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/46> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/46> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/46> <https://example.org/benchmark/statement/46>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/46> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/46> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/47> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/47> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/47> <https://example.org/benchmark/statement/47>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/47> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/47> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/48> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/48> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/48> <https://example.org/benchmark/statement/48>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/48> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/48> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/49> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/49> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/49> <https://example.org/benchmark/statement/49>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/49> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/49> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/50> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/50> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/50> <https://example.org/benchmark/statement/50>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/50> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/50> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/51> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/51> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/51> <https://example.org/benchmark/statement/51>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/51> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/51> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/52> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/52> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/52> <https://example.org/benchmark/statement/52>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/52> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/52> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/53> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/53> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/53> <https://example.org/benchmark/statement/53>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/53> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/53> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/54> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/54> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/54> <https://example.org/benchmark/statement/54>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/54> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/54> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/55> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/55> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/55> <https://example.org/benchmark/statement/55>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/55> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/55> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/56> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/56> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/56> <https://example.org/benchmark/statement/56>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/56> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/56> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/57> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/57> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/57> <https://example.org/benchmark/statement/57>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/57> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/57> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/58> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/58> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/58> <https://example.org/benchmark/statement/58>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/58> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/58> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/59> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/59> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/59> <https://example.org/benchmark/statement/59>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/59> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/59> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/60> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/60> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/60> <https://example.org/benchmark/statement/60>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/60> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/60> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/61> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/61> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/61> <https://example.org/benchmark/statement/61>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/61> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/61> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/62> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/62> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/62> <https://example.org/benchmark/statement/62>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/62> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/62> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/63> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/63> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/63> <https://example.org/benchmark/statement/63>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/63> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/63> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/64> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/64> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/64> <https://example.org/benchmark/statement/64>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/64> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/64> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/65> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/65> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/65> <https://example.org/benchmark/statement/65>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/65> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/65> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/66> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/66> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/66> <https://example.org/benchmark/statement/66>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/66> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/66> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/67> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/67> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/67> <https://example.org/benchmark/statement/67>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/67> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/67> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/68> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/68> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/68> <https://example.org/benchmark/statement/68>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/68> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/68> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/69> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/69> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/69> <https://example.org/benchmark/statement/69>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/69> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/69> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/70> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/70> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/70> <https://example.org/benchmark/statement/70>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/70> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/70> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/71> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/71> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/71> <https://example.org/benchmark/statement/71>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/71> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/71> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/72> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/72> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/72> <https://example.org/benchmark/statement/72>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/72> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/72> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/73> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/73> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/73> <https://example.org/benchmark/statement/73>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/73> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/73> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/74> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/74> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/74> <https://example.org/benchmark/statement/74>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/74> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/74> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/75> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/75> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/75> <https://example.org/benchmark/statement/75>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/75> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/75> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/76> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/76> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/76> <https://example.org/benchmark/statement/76>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/76> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/76> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/77> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/77> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/77> <https://example.org/benchmark/statement/77>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/77> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/77> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/78> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/78> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/78> <https://example.org/benchmark/statement/78>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/78> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/78> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/79> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/79> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/79> <https://example.org/benchmark/statement/79>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/79> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/79> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/80> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/80> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/80> <https://example.org/benchmark/statement/80>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/80> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/80> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/81> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/81> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/81> <https://example.org/benchmark/statement/81>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/81> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/81> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/82> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/82> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/82> <https://example.org/benchmark/statement/82>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/82> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/82> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/83> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/83> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/83> <https://example.org/benchmark/statement/83>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/83> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/83> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/84> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/84> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/84> <https://example.org/benchmark/statement/84>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/84> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/84> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/85> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/85> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/85> <https://example.org/benchmark/statement/85>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/85> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/85> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/86> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/86> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/86> <https://example.org/benchmark/statement/86>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/86> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/86> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/87> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/87> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/87> <https://example.org/benchmark/statement/87>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/87> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/87> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/88> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/88> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/88> <https://example.org/benchmark/statement/88>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/88> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/88> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/89> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/89> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/89> <https://example.org/benchmark/statement/89>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/89> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/89> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/90> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/90> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/90> <https://example.org/benchmark/statement/90>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/90> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/90> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/91> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/91> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/91> <https://example.org/benchmark/statement/91>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/91> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/91> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/92> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/92> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/92> <https://example.org/benchmark/statement/92>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/92> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/92> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/93> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/93> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/93> <https://example.org/benchmark/statement/93>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/93> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/93> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/94> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/94> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/94> <https://example.org/benchmark/statement/94>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/94> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/94> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/95> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/95> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/95> <https://example.org/benchmark/statement/95>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/95> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/95> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/96> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/96> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/96> <https://example.org/benchmark/statement/96>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/96> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/96> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/97> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/97> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/97> <https://example.org/benchmark/statement/97>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/97> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/97> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/98> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/98> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/98> <https://example.org/benchmark/statement/98>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/98> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/98> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/99> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/99> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/99> <https://example.org/benchmark/statement/99>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/99> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/99> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/100> a dcat:Dataset .
+
+<https://example.org/benchmark/statement/100> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<https://example.org/benchmark/dataset/100> <https://example.org/benchmark/statement/100>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://example.org/benchmark/inclusion/100> a dmp:StatementInclusion ;
+    dmp:statement <https://example.org/benchmark/statement/100> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+

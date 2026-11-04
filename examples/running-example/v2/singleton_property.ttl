@@ -1,0 +1,118 @@
+@prefix ex: <https://example.org/example/> .
+@prefix dmp: <https://example.org/dmp-vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dmp:Completed rdf:type skos:Concept ;
+    skos:prefLabel "Completed"@en .
+dmp:Deprecated rdf:type skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+dmp:Planned rdf:type skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+# DMP and both versions
+ex:DMP rdf:type dmp:DMP .
+
+ex:V1 rdf:type dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+
+ex:V2 rdf:type dmp:DMPVersion ;
+    dmp:versionOf ex:DMP ;
+    dmp:previousVersion ex:V1 .
+
+# Resources described by the Statements
+ex:images dct:title "Microscopy images" ;
+    rdf:type dcat:Dataset .
+
+ex:localCopy rdf:type dcat:Distribution ;
+    dmp:copyOf ex:images .
+
+# S1: Content unchanged across versions
+ex:S1 rdf:type dmp:Statement ;
+    dct:source ex:DMP .
+
+# ex:S1: singleton property identifying one subject-object pair
+ex:S1 rdf:singletonPropertyOf dmp:depositedIn .
+ex:images ex:S1 <https://www.ebi.ac.uk/bioimage-archive/> .
+
+# S2: Original licensing plan, superseded by S4
+ex:S2 rdf:type dmp:Statement, dmp:SupersededStatement ;
+    dct:source ex:DMP .
+
+# ex:S2: singleton property identifying one subject-object pair
+ex:S2 rdf:singletonPropertyOf dct:license .
+ex:images ex:S2 <https://creativecommons.org/licenses/by/4.0/> .
+
+# S3: No human or sensitive data
+ex:S3 rdf:type dmp:Statement ;
+    dct:source ex:DMP .
+
+# ex:S3: singleton property identifying one subject-object pair
+ex:S3 rdf:singletonPropertyOf dmp:containsHumanOrSensitiveData .
+ex:images ex:S3 "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+# S4: New release terms, superseding S2
+ex:S4 rdf:type dmp:Statement, dmp:SupersedingStatement ;
+    dct:source ex:DMP;
+    dmp:supersedes ex:S2 .
+
+# ex:S4: singleton property identifying one subject-object pair
+ex:S4 rdf:singletonPropertyOf dct:license .
+ex:images ex:S4 <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+# Illustrative external policy
+<https://example.org/policies/data-retention> dct:title "Institutional research data retention policy"@en ;
+    rdf:type dmp:ExternalSource .
+
+# S5: Retention commitment originating from the policy
+ex:S5 rdf:type dmp:Statement ;
+    dct:source <https://example.org/policies/data-retention> .
+
+# ex:S5: singleton property identifying one subject-object pair
+ex:S5 rdf:singletonPropertyOf dmp:retentionPeriod .
+ex:localCopy ex:S5 "Ten years after project completion" .
+
+# Preserved V1 records
+ex:S1_V1 rdf:type dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement ex:S1 ;
+    dmp:version ex:V1 .
+
+ex:S2_V1 rdf:type dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement ex:S2 ;
+    dmp:version ex:V1 .
+
+
+ex:S3_V1 rdf:type dmp:StatementInclusion ;
+    dmp:statement ex:S3 ;
+    dmp:version ex:V1 .
+
+# V2 records
+ex:S1_V2 rdf:type dmp:StatementInclusion ;
+    adms:status dmp:Completed ;
+    dmp:statement ex:S1 ;
+    dmp:version ex:V2 .
+
+ex:S2_V2 rdf:type dmp:StatementInclusion ;
+    adms:status dmp:Deprecated ;
+    dmp:statement ex:S2 ;
+    dmp:version ex:V2 .
+
+ex:S3_V2 rdf:type dmp:StatementInclusion ;
+    dmp:statement ex:S3 ;
+    dmp:version ex:V2 .
+
+ex:S4_V2 rdf:type dmp:StatementInclusion ;
+    adms:status dmp:Completed ;
+    dmp:statement ex:S4 ;
+    dmp:version ex:V2 .
+
+ex:S5_V2 rdf:type dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement ex:S5 ;
+    dmp:version ex:V2 .

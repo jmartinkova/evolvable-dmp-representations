@@ -1,0 +1,5 @@
+<https://example.org/example/DMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/DMP> .
+<https://example.org/example/V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/DMPVersion> .
+<https://example.org/example/V1> <https://example.org/dmp-vocab/versionOf> <https://example.org/example/DMP> .
+<https://example.org/dmp-vocab/Planned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Planned> <http://www.w3.org/2004/02/skos/core#prefLabel> "Planned"@en .

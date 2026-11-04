@@ -1,0 +1,47 @@
+{
+  "query": "CQ3",
+  "status": "MATCH",
+  "expected": {
+    "vars": [
+      "statement",
+      "stateV1",
+      "stateV2"
+    ],
+    "rows": [
+      [
+        "https://example.org/example/S1",
+        "https://example.org/dmp-vocab/Planned",
+        "https://example.org/dmp-vocab/Completed"
+      ],
+      [
+        "https://example.org/example/S2",
+        "https://example.org/dmp-vocab/Planned",
+        "https://example.org/dmp-vocab/Deprecated"
+      ],
+      [
+        "https://example.org/example/S3",
+        null,
+        null
+      ]
+    ]
+  },
+  "decoded_distinct_results": [
+    [
+      "https://example.org/example/S1",
+      "https://example.org/dmp-vocab/Planned",
+      "https://example.org/dmp-vocab/Completed"
+    ],
+    [
+      "https://example.org/example/S2",
+      "https://example.org/dmp-vocab/Planned",
+      "https://example.org/dmp-vocab/Deprecated"
+    ],
+    [
+      "https://example.org/example/S3",
+      null,
+      null
+    ]
+  ],
+  "missing": [],
+  "unexpected": []
+}

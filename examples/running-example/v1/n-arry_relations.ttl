@@ -1,0 +1,61 @@
+# N-ary relation nodes represent Statement content; status is on version-specific inclusion.
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dmp: <https://example.org/dmp-vocab/> .
+@prefix ex: <https://example.org/example/> .
+@prefix nr: <https://example.org/nary/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dmp:Completed a skos:Concept ;
+    skos:prefLabel "Completed"@en .
+
+dmp:Deprecated a skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+
+dmp:Planned a skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+# DMP and its first version
+ex:DMP a dmp:DMP .
+
+ex:V1 a dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+
+# Dataset described by the Statements
+ex:images a dcat:Dataset ;
+    dcterms:title "Microscopy images" ;
+    nr:hasDepositionRelation ex:S1 ;
+    nr:hasHumanOrSensitiveDataRelation ex:S3 ;
+    nr:hasLicenseRelation ex:S2 .
+
+# S1: Deposition in the BioImage Archive
+ex:S1 a nr:DepositionRelation ;
+    dcterms:source ex:DMP ;
+    nr:depositionValue <https://www.ebi.ac.uk/bioimage-archive/> .
+
+# S2: Release under CC BY 4.0
+ex:S2 a nr:LicenseRelation ;
+    dcterms:source ex:DMP ;
+    nr:licenseValue <https://creativecommons.org/licenses/by/4.0/> .
+
+# S3: No human or sensitive data
+ex:S3 a nr:HumanOrSensitiveDataRelation ;
+    dcterms:source ex:DMP ;
+    nr:humanOrSensitiveDataValue false .
+
+# V1 records
+ex:S1_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement ex:S1 ;
+    dmp:version ex:V1 .
+
+ex:S2_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement ex:S2 ;
+    dmp:version ex:V1 .
+
+ex:S3_V1 a dmp:StatementInclusion ;
+    dmp:statement ex:S3 ;
+    dmp:version ex:V1 .

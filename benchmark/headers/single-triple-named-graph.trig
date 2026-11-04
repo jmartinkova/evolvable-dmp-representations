@@ -1,0 +1,15 @@
+@prefix ex:   <https://example.org/example/> .
+@prefix dmp:  <https://example.org/dmp-vocab/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+ex:DMP a dmp:DMP .
+
+ex:V1 a dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+
+dmp:Planned a skos:Concept ;
+    skos:prefLabel "Planned"@en .
+    

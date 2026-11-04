@@ -1,0 +1,48 @@
+@prefix ex: <https://example.org/example/> .
+@prefix dmp: <https://example.org/dmp-vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dmp:Completed rdf:type skos:Concept ;
+    skos:prefLabel "Completed"@en .
+dmp:Deprecated rdf:type skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+dmp:Planned rdf:type skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+# DMP and its first version
+ex:DMP rdf:type dmp:DMP .
+
+ex:V1 rdf:type dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+
+# Dataset described by the Statements
+ex:images dct:title "Microscopy images" ;
+    rdf:type dcat:Dataset .
+
+# S1: Deposition in the BioImage Archive
+<<ex:images dmp:depositedIn <https://www.ebi.ac.uk/bioimage-archive/>>> dct:source ex:DMP .
+
+# S2: Release under CC BY 4.0
+<<ex:images dct:license <https://creativecommons.org/licenses/by/4.0/>>> dct:source ex:DMP .
+
+# S3: Contains no human or sensitive data
+<<ex:images dmp:containsHumanOrSensitiveData "false"^^xsd:boolean>> dct:source ex:DMP .
+
+# V1 records
+ex:S1_V1 rdf:type dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    dmp:statement <<ex:images dmp:depositedIn <https://www.ebi.ac.uk/bioimage-archive/>>> ;
+    adms:status dmp:Planned .
+
+ex:S2_V1 rdf:type dmp:StatementInclusion  ;
+    dmp:version ex:V1 ;
+    dmp:statement <<ex:images dct:license <https://creativecommons.org/licenses/by/4.0/>>> ;
+    adms:status dmp:Planned .
+ex:S3_V1 rdf:type dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    dmp:statement <<ex:images dmp:containsHumanOrSensitiveData "false"^^xsd:boolean>> .

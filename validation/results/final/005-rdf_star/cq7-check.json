@@ -1,0 +1,30 @@
+{
+  "query": "CQ7",
+  "status": "MATCH",
+  "expected": {
+    "vars": [
+      "statement",
+      "supersededStatement"
+    ],
+    "rows": [
+      [
+        "https://example.org/example/S4",
+        "https://example.org/example/S2"
+      ]
+    ]
+  },
+  "command": [
+    "/Users/janamartinkova/Desktop/GitHub/phd/RDF-benchmark/apache-jena-5.3.0/bin/arq",
+    "--data=/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/example/v2/rdf_star.nt",
+    "--query=/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/special-queries/rdf-star/cq7.rq",
+    "--results=JSON"
+  ],
+  "decoded_distinct_results": [
+    [
+      "https://example.org/example/S4",
+      "https://example.org/example/S2"
+    ]
+  ],
+  "missing": [],
+  "unexpected": []
+}

@@ -1,0 +1,1094 @@
+{
+  "utc": "2026-10-20T11:37:09.445566+00:00",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "processor": "arm",
+  "logical_cpus": 10,
+  "python": "3.13.11",
+  "java": "java version \"25.0.2\" 2026-01-20 LTS\nJava(TM) SE Runtime Environment (build 25.0.2+10-LTS-69)\nJava HotSpot(TM) 64-Bit Server VM (build 25.0.2+10-LTS-69, mixed mode, sharing)\n",
+  "javac": "javac 25.0.2\n",
+  "java_executable": "/usr/bin/java",
+  "parameters": {
+    "jena53": "/Users/janamartinkova/Desktop/GitHub/phd/RDF-benchmark/apache-jena-5.3.0",
+    "jena62": null,
+    "warmups": 10,
+    "warmup_seconds": 5.0,
+    "measurements": 20,
+    "forks": 3,
+    "seed": 20261020
+  },
+  "jena_homes": {
+    "5.3.0": "/Users/janamartinkova/Desktop/GitHub/phd/RDF-benchmark/apache-jena-5.3.0",
+    "6.2.0": "/opt/homebrew/Cellar/jena/6.2.0/libexec"
+  },
+  "java_options_environment": {
+    "JAVA_TOOL_OPTIONS": null,
+    "_JAVA_OPTIONS": null,
+    "JDK_JAVA_OPTIONS": null
+  },
+  "warmup_method": "minimum warmup count AND minimum accumulated timed parsing duration; timings buffered before CSV output",
+  "method": "in-memory streaming parse, fresh parser each iteration; no graph storage",
+  "count_method": "parser triple/quad events in separate untimed validation parse",
+  "jena_5.3.0": "Apache Jena RIOT version 5.3.0\n",
+  "jena_6.2.0": "Apache Jena RIOT version 6.2.0\n",
+  "files": [
+    {
+      "file": "n-ary-relations_10.ttl",
+      "bytes": 5360,
+      "sha256": "007637cd6a843795a88ed8ef649d7b6bb22317c6f220558cc4682c78390fb4e8",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "n-ary-relations_100.ttl",
+      "bytes": 49285,
+      "sha256": "4452925e05021dcfb1088cc36999a21f923cd52dd14e5e767bd0b14090e22cf6",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "n-ary-relations_1000.ttl",
+      "bytes": 492990,
+      "sha256": "19e96a4b0f5648cc51ea72a9de034b502b118cdeaedf2db11a0963d34c7eaa2f",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "n-ary-relations_10000.ttl",
+      "bytes": 4974995,
+      "sha256": "a828b92e98c62c3f11dbb32d2b48e0906de465af00e6d084c0f6fb221e89010f",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "rdf-star_10.ttl",
+      "bytes": 5107,
+      "sha256": "369dbf8b5609a66f1d08b584229d809cee1d9a50808087548f2ef5584098a039",
+      "versions": [
+        "5.3.0"
+      ]
+    },
+    {
+      "file": "rdf-star_100.ttl",
+      "bytes": 47591,
+      "sha256": "c9ea7c2bad4770dd8d69973657adf9d71c66937df7d8a09a59e06b0c1bfe1b56",
+      "versions": [
+        "5.3.0"
+      ]
+    },
+    {
+      "file": "rdf-star_1000.ttl",
+      "bytes": 475995,
+      "sha256": "eba6da1f952b00806c6d28875f04814d8114892509537c77c55b61366e2afd53",
+      "versions": [
+        "5.3.0"
+      ]
+    },
+    {
+      "file": "rdf-star_10000.ttl",
+      "bytes": 4795999,
+      "sha256": "7cd2c022245322d968190e601fc515896b58365dc82d8d28f21a6caa8405c97a",
+      "versions": [
+        "5.3.0"
+      ]
+    },
+    {
+      "file": "rdf12_10.nt",
+      "bytes": 11943,
+      "sha256": "757b45b14361f54212da6e71649b8dde33c1750c8f34ece2cfdaea87dc601f97",
+      "versions": [
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "rdf12_10.ttl",
+      "bytes": 5208,
+      "sha256": "6b14c921b34d67a5fb6657ad424f174d8b94a851f1483489402fcc953c5f35bc",
+      "versions": [
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "rdf12_100.nt",
+      "bytes": 114823,
+      "sha256": "2388a6d9a2adab0a8f2419d19e88ee661a735259c3f5ba5ee1ca17c40df6f9e8",
+      "versions": [
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "rdf12_100.ttl",
+      "bytes": 48143,
+      "sha256": "ad55376ba6cd21d8c75fb184103ec096a7ae3f8cf06a12a36653b92db6000901",
+      "versions": [
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "rdf12_1000.nt",
+      "bytes": 1152533,
+      "sha256": "392d34aef5ab87e0fa7db38138d40a500714bad585fd1abf02ed5c04814aaadd",
+      "versions": [
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "rdf12_1000.ttl",
+      "bytes": 481948,
+      "sha256": "fd74aba729ae8c264858dec1d392c6d3fba97788cc00b32183ae591af8587bcb",
+      "versions": [
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "rdf12_10000.nt",
+      "bytes": 11619543,
+      "sha256": "b6856954074b4b9c5ed67f1a8442f25fff5446f0cc4856ab0b8aae03c031aad6",
+      "versions": [
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "rdf12_10000.ttl",
+      "bytes": 4864953,
+      "sha256": "1c6a5411858668e4e49fbc0afe3ea5086dcfd500cdf8bc5972e1650eafdf148b",
+      "versions": [
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "single-triple-named-graph_10.nq",
+      "bytes": 11363,
+      "sha256": "6fae3ab4c5e6c0188ad82fc98075da92e876aeb2afe16b63e149b493de87092e",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "single-triple-named-graph_10.trig",
+      "bytes": 5439,
+      "sha256": "5ccd7a49f9de6a014a4959b114573ae515f1d6fa4e7a3b0d6cc3ca25a4d25595",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "single-triple-named-graph_100.nq",
+      "bytes": 109023,
+      "sha256": "b8b4aa3182b9cd22b3257dc8b034fb18c0f3143a380eb7b9b4795d1a131ee4e8",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "single-triple-named-graph_100.trig",
+      "bytes": 51075,
+      "sha256": "bb3677829ae51dbea422d9cf3f52da175b4fafc23de33330222fa6ad449278c2",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "single-triple-named-graph_1000.nq",
+      "bytes": 1094533,
+      "sha256": "471fea038d59b256c640a75485c18934fe12196bd2cbe5155e0f13562dc635fe",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "single-triple-named-graph_1000.trig",
+      "bytes": 512781,
+      "sha256": "35558ac2ab752877423cdbe802919e87a0fc6c268b409e2e5110029c3a7db340",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "single-triple-named-graph_10000.nq",
+      "bytes": 11039543,
+      "sha256": "0f2e8e05bf1af90c90ecde36edc85e983d232f229007192f0fd1b5f8ff64c2ee",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "single-triple-named-graph_10000.trig",
+      "bytes": 5183787,
+      "sha256": "31140b9564629df0c4891c483bd16de7a9cd59473ecd78ea3f7671ee4403b94d",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "singleton-property_10.ttl",
+      "bytes": 5679,
+      "sha256": "be198315b4854d006cee3c8acb585cc096dc9f2ea55da2b456ff273d72913353",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "singleton-property_100.ttl",
+      "bytes": 52935,
+      "sha256": "0497528db91f8db7a446daa81dab1473d3477dc54e626f9156d30685041a3343",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "singleton-property_1000.ttl",
+      "bytes": 530841,
+      "sha256": "cffe1593c9cb20d5b8538785284a043800d51532936a35ebcf8ad39a80fefe8f",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "singleton-property_10000.ttl",
+      "bytes": 5363847,
+      "sha256": "aab0a72e66af2302a79b2071d819b5be52bf3180f5a776958e0391b369675a60",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "standard-reification_10.ttl",
+      "bytes": 5420,
+      "sha256": "c237cea5badbb955f13d5c7489340a5e1df4a8e6c8b9150691605fe5af17aa8c",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "standard-reification_100.ttl",
+      "bytes": 50245,
+      "sha256": "8431688685901c09e10248bf4202368771ec9e49057d603ae7627b71e8aeec3c",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "standard-reification_1000.ttl",
+      "bytes": 502950,
+      "sha256": "ca7ad998b4d5f74ab636cc15e57ce86c35d8c8cfdd3d145a0c1534acd9902e83",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    },
+    {
+      "file": "standard-reification_10000.ttl",
+      "bytes": 5074955,
+      "sha256": "53cd955081b273e14fbba3ba7960997dd070b9d88a130f32100576a48e2a67bd",
+      "versions": [
+        "5.3.0",
+        "6.2.0"
+      ]
+    }
+  ],
+  "task_order": [
+    [
+      "rdf12_10.nt",
+      "6.2.0",
+      3
+    ],
+    [
+      "n-ary-relations_10.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_1000.nq",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_100.nq",
+      "6.2.0",
+      2
+    ],
+    [
+      "rdf12_100.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10000.nq",
+      "5.3.0",
+      2
+    ],
+    [
+      "rdf12_1000.nt",
+      "6.2.0",
+      1
+    ],
+    [
+      "n-ary-relations_1000.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10.nq",
+      "5.3.0",
+      3
+    ],
+    [
+      "singleton-property_10.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10.nq",
+      "5.3.0",
+      1
+    ],
+    [
+      "rdf12_10000.nt",
+      "6.2.0",
+      2
+    ],
+    [
+      "rdf12_100.nt",
+      "6.2.0",
+      3
+    ],
+    [
+      "rdf-star_1000.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "standard-reification_10.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "singleton-property_10000.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "rdf12_100.nt",
+      "6.2.0",
+      1
+    ],
+    [
+      "n-ary-relations_10000.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "singleton-property_100.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_1000.trig",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10.trig",
+      "5.3.0",
+      1
+    ],
+    [
+      "singleton-property_100.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "singleton-property_10000.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "standard-reification_100.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "standard-reification_10000.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_100.nq",
+      "5.3.0",
+      2
+    ],
+    [
+      "standard-reification_1000.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_100.trig",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_100.trig",
+      "5.3.0",
+      2
+    ],
+    [
+      "singleton-property_10000.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_1000.nq",
+      "5.3.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_10000.trig",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10.trig",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_1000.nq",
+      "6.2.0",
+      3
+    ],
+    [
+      "n-ary-relations_1000.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "rdf12_10000.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "standard-reification_1000.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "rdf-star_100.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "standard-reification_10000.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "standard-reification_10000.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_100.nq",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_1000.trig",
+      "5.3.0",
+      1
+    ],
+    [
+      "n-ary-relations_10000.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "n-ary-relations_100.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "singleton-property_10.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "rdf-star_1000.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "rdf-star_10000.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "standard-reification_10.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "singleton-property_1000.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10000.nq",
+      "6.2.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10000.trig",
+      "6.2.0",
+      1
+    ],
+    [
+      "n-ary-relations_100.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "n-ary-relations_10.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_1000.trig",
+      "5.3.0",
+      3
+    ],
+    [
+      "n-ary-relations_10000.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "standard-reification_10.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "rdf-star_10000.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "rdf-star_10000.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "rdf12_100.nt",
+      "6.2.0",
+      2
+    ],
+    [
+      "standard-reification_1000.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "rdf12_1000.nt",
+      "6.2.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10000.nq",
+      "5.3.0",
+      1
+    ],
+    [
+      "n-ary-relations_10.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "rdf-star_10.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10.nq",
+      "6.2.0",
+      3
+    ],
+    [
+      "n-ary-relations_10.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10000.trig",
+      "6.2.0",
+      2
+    ],
+    [
+      "rdf-star_1000.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "singleton-property_1000.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10.trig",
+      "6.2.0",
+      3
+    ],
+    [
+      "rdf12_1000.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10000.trig",
+      "6.2.0",
+      3
+    ],
+    [
+      "rdf12_100.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_10.nq",
+      "5.3.0",
+      2
+    ],
+    [
+      "rdf12_10.nt",
+      "6.2.0",
+      1
+    ],
+    [
+      "standard-reification_100.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "singleton-property_10.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "singleton-property_10.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "standard-reification_1000.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "standard-reification_1000.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "standard-reification_100.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_100.trig",
+      "5.3.0",
+      1
+    ],
+    [
+      "singleton-property_1000.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "standard-reification_100.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_100.trig",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_10.trig",
+      "6.2.0",
+      1
+    ],
+    [
+      "rdf12_1000.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "singleton-property_10000.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "n-ary-relations_10.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_1000.trig",
+      "6.2.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_1000.nq",
+      "6.2.0",
+      2
+    ],
+    [
+      "rdf12_1000.nt",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10000.nq",
+      "5.3.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_1000.nq",
+      "5.3.0",
+      3
+    ],
+    [
+      "rdf-star_10.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "standard-reification_100.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "rdf12_100.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "n-ary-relations_10.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "singleton-property_100.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "n-ary-relations_1000.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_100.nq",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_100.nq",
+      "5.3.0",
+      1
+    ],
+    [
+      "standard-reification_10.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "n-ary-relations_10000.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "rdf12_10.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "rdf12_10000.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "rdf-star_100.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "rdf12_10000.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "singleton-property_100.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10.nq",
+      "6.2.0",
+      2
+    ],
+    [
+      "n-ary-relations_100.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "standard-reification_10000.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_100.nq",
+      "5.3.0",
+      3
+    ],
+    [
+      "singleton-property_1000.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "singleton-property_1000.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "rdf-star_10.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10000.nq",
+      "6.2.0",
+      3
+    ],
+    [
+      "singleton-property_10.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10000.trig",
+      "5.3.0",
+      1
+    ],
+    [
+      "standard-reification_10.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "n-ary-relations_100.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_1000.trig",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_1000.trig",
+      "5.3.0",
+      2
+    ],
+    [
+      "standard-reification_10000.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "standard-reification_100.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_1000.nq",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_10000.nq",
+      "6.2.0",
+      1
+    ],
+    [
+      "standard-reification_1000.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_10.trig",
+      "6.2.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10000.trig",
+      "5.3.0",
+      3
+    ],
+    [
+      "singleton-property_100.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "single-triple-named-graph_10.trig",
+      "5.3.0",
+      3
+    ],
+    [
+      "rdf-star_100.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "rdf12_10.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "n-ary-relations_100.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "n-ary-relations_1000.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "rdf12_10.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "standard-reification_10000.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "standard-reification_10.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "rdf12_10000.nt",
+      "6.2.0",
+      3
+    ],
+    [
+      "n-ary-relations_10000.ttl",
+      "6.2.0",
+      3
+    ],
+    [
+      "singleton-property_10.ttl",
+      "5.3.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_10.nq",
+      "6.2.0",
+      1
+    ],
+    [
+      "n-ary-relations_1000.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "rdf12_1000.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "singleton-property_10000.ttl",
+      "6.2.0",
+      2
+    ],
+    [
+      "single-triple-named-graph_100.trig",
+      "6.2.0",
+      2
+    ],
+    [
+      "n-ary-relations_100.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "rdf12_10.nt",
+      "6.2.0",
+      2
+    ],
+    [
+      "n-ary-relations_10000.ttl",
+      "5.3.0",
+      3
+    ],
+    [
+      "singleton-property_10000.ttl",
+      "5.3.0",
+      1
+    ],
+    [
+      "n-ary-relations_1000.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "singleton-property_1000.ttl",
+      "6.2.0",
+      1
+    ],
+    [
+      "rdf12_10000.nt",
+      "6.2.0",
+      1
+    ],
+    [
+      "single-triple-named-graph_100.trig",
+      "5.3.0",
+      3
+    ],
+    [
+      "singleton-property_100.ttl",
+      "6.2.0",
+      1
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+<%%dataset%%> a dcat:Dataset ;
+    nr:hasLicenseRelation <%%statement%%> .
+
+<%%statement%%> a nr:LicenseRelation ;
+    nr:licenseValue <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:source ex:DMP .
+
+<%%inclusion%%> a dmp:StatementInclusion ;
+    dmp:statement <%%statement%%> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+    

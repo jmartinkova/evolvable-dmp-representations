@@ -1,0 +1,45 @@
+<https://example.org/dmp-vocab/Completed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Completed> <http://www.w3.org/2004/02/skos/core#prefLabel> "Completed"@en .
+<https://example.org/dmp-vocab/Deprecated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Deprecated> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deprecated"@en .
+<https://example.org/dmp-vocab/Planned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Planned> <http://www.w3.org/2004/02/skos/core#prefLabel> "Planned"@en .
+
+# DMP and its first version
+<https://example.org/example/DMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/DMP> .
+<https://example.org/example/V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/DMPVersion> .
+<https://example.org/example/V1> <https://example.org/dmp-vocab/versionOf> <https://example.org/example/DMP> .
+
+# Dataset described by the Statements
+<https://example.org/example/images> <http://purl.org/dc/terms/title> "Microscopy images" .
+<https://example.org/example/images> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+
+# S1: Deposition in the BioImage Archive
+<https://example.org/example/S1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/example/images> <https://example.org/dmp-vocab/depositedIn> <https://www.ebi.ac.uk/bioimage-archive/> )>> .
+<https://example.org/example/S1> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/example/S1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+
+# S2: Release under CC BY 4.0
+<https://example.org/example/S2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/example/images> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/example/S2> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/example/S2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+
+# S3: No human or sensitive data
+<https://example.org/example/S3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/example/images> <https://example.org/dmp-vocab/containsHumanOrSensitiveData> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> )>> .
+<https://example.org/example/S3> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/example/S3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+
+# V1 records
+<https://example.org/example/S1_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/example/S1_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<https://example.org/example/S1_V1> <https://example.org/dmp-vocab/statement> <https://example.org/example/S1> .
+<https://example.org/example/S1_V1> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+
+<https://example.org/example/S2_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/example/S2_V1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+<https://example.org/example/S2_V1> <https://example.org/dmp-vocab/statement> <https://example.org/example/S2> .
+<https://example.org/example/S2_V1> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+
+<https://example.org/example/S3_V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/example/S3_V1> <https://example.org/dmp-vocab/statement> <https://example.org/example/S3> .
+<https://example.org/example/S3_V1> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .

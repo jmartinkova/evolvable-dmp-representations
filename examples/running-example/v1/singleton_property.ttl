@@ -1,0 +1,66 @@
+@prefix ex: <https://example.org/example/> .
+@prefix dmp: <https://example.org/dmp-vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dmp:Completed rdf:type skos:Concept ;
+    skos:prefLabel "Completed"@en .
+
+dmp:Deprecated rdf:type skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+
+dmp:Planned rdf:type skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+# DMP and its first version
+ex:DMP rdf:type dmp:DMP .
+ex:V1 rdf:type dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+
+# Dataset described by the Statements
+ex:images dct:title "Microscopy images" ;
+    rdf:type dcat:Dataset .
+
+# S1: Deposition in the BioImage Archive
+ex:S1 dct:source ex:DMP ;
+    rdf:type dmp:Statement .
+
+# ex:S1: singleton property identifying one subject-object pair
+ex:S1 rdf:singletonPropertyOf dmp:depositedIn .
+ex:images ex:S1 <https://www.ebi.ac.uk/bioimage-archive/> .
+
+# S2: Release under CC BY 4.0
+ex:S2 dct:source ex:DMP ;
+    rdf:type dmp:Statement .
+
+# ex:S2: singleton property identifying one subject-object pair
+ex:S2 rdf:singletonPropertyOf dct:license .
+ex:images ex:S2 <https://creativecommons.org/licenses/by/4.0/> .
+
+# S3: No human or sensitive data
+ex:S3 dct:source ex:DMP ;
+    rdf:type dmp:Statement .
+
+# ex:S3: singleton property identifying one subject-object pair
+ex:S3 rdf:singletonPropertyOf dmp:containsHumanOrSensitiveData .
+ex:images ex:S3 "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+# V1 records
+ex:S1_V1 rdf:type dmp:StatementInclusion ;
+    dmp:statement ex:S1 ;
+    adms:status dmp:Planned ;
+    dmp:version ex:V1 .
+
+ex:S2_V1 rdf:type dmp:StatementInclusion ;
+    dmp:statement ex:S2 ;
+    adms:status dmp:Planned ;
+    dmp:version ex:V1 .
+
+ex:S3_V1 rdf:type dmp:StatementInclusion ;
+    dmp:statement ex:S3 ;
+    adms:status dmp:Planned ;
+    dmp:version ex:V1 .

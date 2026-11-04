@@ -1,0 +1,1014 @@
+@prefix ex:   <https://example.org/example/> .
+@prefix dmp:  <https://example.org/dmp-vocab/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+ex:DMP a dmp:DMP .
+ex:V1 a dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+dmp:Planned a skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+<https://example.org/benchmark/dataset/1> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/1> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/1> .
+
+<https://example.org/benchmark/inclusion/1> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/2> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/2> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/2> .
+
+<https://example.org/benchmark/inclusion/2> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/3> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/3> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/3> .
+
+<https://example.org/benchmark/inclusion/3> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/4> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/4> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/4> .
+
+<https://example.org/benchmark/inclusion/4> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/5> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/5> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/5> .
+
+<https://example.org/benchmark/inclusion/5> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/6> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/6> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/6> .
+
+<https://example.org/benchmark/inclusion/6> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/7> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/7> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/7> .
+
+<https://example.org/benchmark/inclusion/7> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/8> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/8> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/8> .
+
+<https://example.org/benchmark/inclusion/8> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/9> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/9> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/9> .
+
+<https://example.org/benchmark/inclusion/9> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/10> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/10> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/10> .
+
+<https://example.org/benchmark/inclusion/10> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/11> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/11> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/11> .
+
+<https://example.org/benchmark/inclusion/11> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/12> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/12> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/12> .
+
+<https://example.org/benchmark/inclusion/12> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/13> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/13> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/13> .
+
+<https://example.org/benchmark/inclusion/13> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/14> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/14> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/14> .
+
+<https://example.org/benchmark/inclusion/14> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/15> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/15> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/15> .
+
+<https://example.org/benchmark/inclusion/15> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/16> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/16> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/16> .
+
+<https://example.org/benchmark/inclusion/16> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/17> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/17> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/17> .
+
+<https://example.org/benchmark/inclusion/17> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/18> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/18> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/18> .
+
+<https://example.org/benchmark/inclusion/18> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/19> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/19> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/19> .
+
+<https://example.org/benchmark/inclusion/19> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/20> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/20> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/20> .
+
+<https://example.org/benchmark/inclusion/20> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/21> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/21> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/21> .
+
+<https://example.org/benchmark/inclusion/21> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/22> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/22> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/22> .
+
+<https://example.org/benchmark/inclusion/22> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/23> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/23> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/23> .
+
+<https://example.org/benchmark/inclusion/23> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/24> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/24> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/24> .
+
+<https://example.org/benchmark/inclusion/24> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/25> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/25> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/25> .
+
+<https://example.org/benchmark/inclusion/25> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/26> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/26> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/26> .
+
+<https://example.org/benchmark/inclusion/26> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/27> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/27> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/27> .
+
+<https://example.org/benchmark/inclusion/27> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/28> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/28> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/28> .
+
+<https://example.org/benchmark/inclusion/28> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/29> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/29> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/29> .
+
+<https://example.org/benchmark/inclusion/29> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/30> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/30> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/30> .
+
+<https://example.org/benchmark/inclusion/30> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/31> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/31> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/31> .
+
+<https://example.org/benchmark/inclusion/31> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/32> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/32> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/32> .
+
+<https://example.org/benchmark/inclusion/32> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/33> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/33> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/33> .
+
+<https://example.org/benchmark/inclusion/33> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/34> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/34> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/34> .
+
+<https://example.org/benchmark/inclusion/34> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/35> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/35> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/35> .
+
+<https://example.org/benchmark/inclusion/35> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/36> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/36> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/36> .
+
+<https://example.org/benchmark/inclusion/36> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/37> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/37> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/37> .
+
+<https://example.org/benchmark/inclusion/37> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/38> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/38> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/38> .
+
+<https://example.org/benchmark/inclusion/38> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/39> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/39> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/39> .
+
+<https://example.org/benchmark/inclusion/39> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/40> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/40> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/40> .
+
+<https://example.org/benchmark/inclusion/40> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/41> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/41> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/41> .
+
+<https://example.org/benchmark/inclusion/41> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/42> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/42> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/42> .
+
+<https://example.org/benchmark/inclusion/42> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/43> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/43> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/43> .
+
+<https://example.org/benchmark/inclusion/43> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/44> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/44> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/44> .
+
+<https://example.org/benchmark/inclusion/44> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/45> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/45> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/45> .
+
+<https://example.org/benchmark/inclusion/45> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/46> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/46> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/46> .
+
+<https://example.org/benchmark/inclusion/46> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/47> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/47> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/47> .
+
+<https://example.org/benchmark/inclusion/47> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/48> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/48> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/48> .
+
+<https://example.org/benchmark/inclusion/48> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/49> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/49> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/49> .
+
+<https://example.org/benchmark/inclusion/49> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/50> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/50> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/50> .
+
+<https://example.org/benchmark/inclusion/50> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/51> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/51> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/51> .
+
+<https://example.org/benchmark/inclusion/51> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/52> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/52> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/52> .
+
+<https://example.org/benchmark/inclusion/52> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/53> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/53> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/53> .
+
+<https://example.org/benchmark/inclusion/53> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/54> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/54> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/54> .
+
+<https://example.org/benchmark/inclusion/54> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/55> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/55> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/55> .
+
+<https://example.org/benchmark/inclusion/55> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/56> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/56> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/56> .
+
+<https://example.org/benchmark/inclusion/56> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/57> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/57> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/57> .
+
+<https://example.org/benchmark/inclusion/57> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/58> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/58> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/58> .
+
+<https://example.org/benchmark/inclusion/58> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/59> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/59> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/59> .
+
+<https://example.org/benchmark/inclusion/59> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/60> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/60> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/60> .
+
+<https://example.org/benchmark/inclusion/60> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/61> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/61> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/61> .
+
+<https://example.org/benchmark/inclusion/61> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/62> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/62> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/62> .
+
+<https://example.org/benchmark/inclusion/62> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/63> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/63> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/63> .
+
+<https://example.org/benchmark/inclusion/63> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/64> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/64> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/64> .
+
+<https://example.org/benchmark/inclusion/64> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/65> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/65> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/65> .
+
+<https://example.org/benchmark/inclusion/65> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/66> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/66> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/66> .
+
+<https://example.org/benchmark/inclusion/66> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/67> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/67> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/67> .
+
+<https://example.org/benchmark/inclusion/67> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/68> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/68> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/68> .
+
+<https://example.org/benchmark/inclusion/68> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/69> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/69> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/69> .
+
+<https://example.org/benchmark/inclusion/69> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/70> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/70> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/70> .
+
+<https://example.org/benchmark/inclusion/70> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/71> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/71> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/71> .
+
+<https://example.org/benchmark/inclusion/71> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/72> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/72> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/72> .
+
+<https://example.org/benchmark/inclusion/72> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/73> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/73> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/73> .
+
+<https://example.org/benchmark/inclusion/73> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/74> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/74> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/74> .
+
+<https://example.org/benchmark/inclusion/74> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/75> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/75> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/75> .
+
+<https://example.org/benchmark/inclusion/75> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/76> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/76> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/76> .
+
+<https://example.org/benchmark/inclusion/76> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/77> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/77> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/77> .
+
+<https://example.org/benchmark/inclusion/77> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/78> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/78> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/78> .
+
+<https://example.org/benchmark/inclusion/78> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/79> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/79> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/79> .
+
+<https://example.org/benchmark/inclusion/79> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/80> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/80> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/80> .
+
+<https://example.org/benchmark/inclusion/80> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/81> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/81> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/81> .
+
+<https://example.org/benchmark/inclusion/81> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/82> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/82> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/82> .
+
+<https://example.org/benchmark/inclusion/82> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/83> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/83> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/83> .
+
+<https://example.org/benchmark/inclusion/83> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/84> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/84> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/84> .
+
+<https://example.org/benchmark/inclusion/84> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/85> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/85> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/85> .
+
+<https://example.org/benchmark/inclusion/85> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/86> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/86> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/86> .
+
+<https://example.org/benchmark/inclusion/86> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/87> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/87> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/87> .
+
+<https://example.org/benchmark/inclusion/87> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/88> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/88> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/88> .
+
+<https://example.org/benchmark/inclusion/88> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/89> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/89> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/89> .
+
+<https://example.org/benchmark/inclusion/89> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/90> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/90> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/90> .
+
+<https://example.org/benchmark/inclusion/90> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/91> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/91> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/91> .
+
+<https://example.org/benchmark/inclusion/91> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/92> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/92> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/92> .
+
+<https://example.org/benchmark/inclusion/92> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/93> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/93> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/93> .
+
+<https://example.org/benchmark/inclusion/93> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/94> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/94> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/94> .
+
+<https://example.org/benchmark/inclusion/94> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/95> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/95> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/95> .
+
+<https://example.org/benchmark/inclusion/95> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/96> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/96> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/96> .
+
+<https://example.org/benchmark/inclusion/96> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/97> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/97> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/97> .
+
+<https://example.org/benchmark/inclusion/97> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/98> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/98> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/98> .
+
+<https://example.org/benchmark/inclusion/98> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/99> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/99> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/99> .
+
+<https://example.org/benchmark/inclusion/99> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+
+<https://example.org/benchmark/dataset/100> a dcat:Dataset .
+
+{ <https://example.org/benchmark/dataset/100> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <https://example.org/benchmark/inclusion/100> .
+
+<https://example.org/benchmark/inclusion/100> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+

@@ -1,0 +1,102 @@
+# Notation3 quoted formulae; no separate Statement IRIs in the data.
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dmp: <https://example.org/dmp-vocab/> .
+@prefix ex: <https://example.org/example/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+dmp:Deprecated a skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+
+dmp:Completed a skos:Concept ;
+    skos:prefLabel "Completed"@en .
+
+dmp:Planned a skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+# DMP and both versions
+ex:DMP a dmp:DMP .
+
+ex:V1 a dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+
+ex:V2 a dmp:DMPVersion ;
+    dmp:previousVersion ex:V1 ;
+    dmp:versionOf ex:DMP .
+
+# Resources described by the Statements
+ex:images a dcat:Dataset ;
+    dcterms:title "Microscopy images" .
+
+ex:localCopy a dcat:Distribution ;
+    dmp:copyOf ex:images .
+
+# S1: Content unchanged across versions
+{ <https://example.org/example/images> <https://example.org/dmp-vocab/depositedIn> <https://www.ebi.ac.uk/bioimage-archive/> . }
+    <http://purl.org/dc/terms/source> <https://example.org/example/DMP> ;
+    is <https://example.org/dmp-vocab/statement> of <https://example.org/example/S1_V1> ;
+    is <https://example.org/dmp-vocab/statement> of <https://example.org/example/S1_V2> .
+
+# S2: Original licensing plan, superseded by S4
+{ <https://example.org/example/images> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> . }
+    <http://purl.org/dc/terms/source> <https://example.org/example/DMP> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/SupersededStatement> ;
+    is <https://example.org/dmp-vocab/statement> of <https://example.org/example/S2_V1> ;
+    is <https://example.org/dmp-vocab/statement> of <https://example.org/example/S2_V2> ;
+    is <https://example.org/dmp-vocab/supersedes> of { <https://example.org/example/images> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> . } .
+
+# S3: No human or sensitive data
+{ <https://example.org/example/images> <https://example.org/dmp-vocab/containsHumanOrSensitiveData> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> . }
+    <http://purl.org/dc/terms/source> <https://example.org/example/DMP> ;
+    is <https://example.org/dmp-vocab/statement> of <https://example.org/example/S3_V1> ;
+    is <https://example.org/dmp-vocab/statement> of <https://example.org/example/S3_V2> .
+
+# S4: New release terms, superseding S2
+{ <https://example.org/example/images> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> . }
+    <http://purl.org/dc/terms/source> <https://example.org/example/DMP> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/SupersedingStatement> ;
+    <https://example.org/dmp-vocab/supersedes> { <https://example.org/example/images> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> . } ;
+    is <https://example.org/dmp-vocab/statement> of <https://example.org/example/S4_V2> .
+
+# Illustrative external policy
+<https://example.org/policies/data-retention> a dmp:ExternalSource ;
+    dcterms:title "Institutional research data retention policy"@en .
+
+# S5: Retention commitment originating from the policy
+{ <https://example.org/example/localCopy> <https://example.org/dmp-vocab/retentionPeriod> "Ten years after project completion" . }
+    <http://purl.org/dc/terms/source> <https://example.org/policies/data-retention> ;
+    is <https://example.org/dmp-vocab/statement> of <https://example.org/example/S5_V2> .
+
+# Preserved V1 records
+ex:S1_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:version ex:V1 .
+
+ex:S2_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:version ex:V1 .
+
+ex:S3_V1 a dmp:StatementInclusion ;
+    dmp:version ex:V1 .
+
+# V2 records
+
+ex:S1_V2 a dmp:StatementInclusion ;
+    adms:status dmp:Completed ;
+    dmp:version ex:V2 .
+
+ex:S2_V2 a dmp:StatementInclusion ;
+    adms:status dmp:Deprecated ;
+    dmp:version ex:V2 .
+
+ex:S3_V2 a dmp:StatementInclusion ;
+    dmp:version ex:V2 .
+
+ex:S4_V2 a dmp:StatementInclusion ;
+    adms:status dmp:Completed ;
+    dmp:version ex:V2 .
+
+ex:S5_V2 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:version ex:V2 .

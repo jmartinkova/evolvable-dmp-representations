@@ -1,0 +1,24 @@
+{
+  "query": "CQ7",
+  "status": "MATCH",
+  "expected": {
+    "vars": [
+      "statement",
+      "supersededStatement"
+    ],
+    "rows": [
+      [
+        "https://example.org/example/S4",
+        "https://example.org/example/S2"
+      ]
+    ]
+  },
+  "decoded_distinct_results": [
+    [
+      "https://example.org/example/S4",
+      "https://example.org/example/S2"
+    ]
+  ],
+  "missing": [],
+  "unexpected": []
+}

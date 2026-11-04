@@ -1,0 +1,53 @@
+{
+  "query": "CQ3",
+  "status": "MATCH",
+  "expected": {
+    "vars": [
+      "statement",
+      "stateV1",
+      "stateV2"
+    ],
+    "rows": [
+      [
+        "https://example.org/example/S1",
+        "https://example.org/dmp-vocab/Planned",
+        "https://example.org/dmp-vocab/Completed"
+      ],
+      [
+        "https://example.org/example/S2",
+        "https://example.org/dmp-vocab/Planned",
+        "https://example.org/dmp-vocab/Deprecated"
+      ],
+      [
+        "https://example.org/example/S3",
+        null,
+        null
+      ]
+    ]
+  },
+  "command": [
+    "/Users/janamartinkova/Desktop/GitHub/phd/RDF-benchmark/apache-jena-5.3.0/bin/arq",
+    "--data=/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/example/v2/rdf_star.ttl",
+    "--query=/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/special-queries/rdf-star/cq3.rq",
+    "--results=JSON"
+  ],
+  "decoded_distinct_results": [
+    [
+      "https://example.org/example/S1",
+      "https://example.org/dmp-vocab/Planned",
+      "https://example.org/dmp-vocab/Completed"
+    ],
+    [
+      "https://example.org/example/S2",
+      "https://example.org/dmp-vocab/Planned",
+      "https://example.org/dmp-vocab/Deprecated"
+    ],
+    [
+      "https://example.org/example/S3",
+      null,
+      null
+    ]
+  ],
+  "missing": [],
+  "unexpected": []
+}

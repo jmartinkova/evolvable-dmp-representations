@@ -1,0 +1,14 @@
+<%%dataset%%> a dcat:Dataset .
+
+<%%statement%%> a dmp:Statement ;
+    rdf:singletonPropertyOf dct:license ;
+    dct:source ex:DMP .
+
+<%%dataset%%> <%%statement%%>
+    <https://creativecommons.org/licenses/by/4.0/> .
+
+<%%inclusion%%> a dmp:StatementInclusion ;
+    dmp:statement <%%statement%%> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+    

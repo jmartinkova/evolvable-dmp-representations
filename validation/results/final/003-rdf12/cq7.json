@@ -1,0 +1,12 @@
+{ "head": {
+    "vars": [ "statement" , "supersededStatement" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "statement": { "type": "uri" , "value": "https://example.org/example/S4" } ,
+        "supersededStatement": { "type": "uri" , "value": "https://example.org/example/S2" }
+      }
+    ]
+  }
+}

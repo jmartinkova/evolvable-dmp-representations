@@ -1,0 +1,8 @@
+query,status,rows,exit_code,detail
+CQ1,MATCH,3,0,
+CQ2,MATCH,5,0,
+CQ3,MATCH,3,0,
+CQ4,MATCH,2,0,
+CQ5,MATCH,1,0,
+CQ6,MATCH,1,0,
+CQ7,MATCH,2,0,

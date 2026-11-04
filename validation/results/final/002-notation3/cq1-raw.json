@@ -1,0 +1,34 @@
+{
+  "variables": [
+    "statement",
+    "state"
+  ],
+  "raw_term_representations": [
+    [
+      "<Graph identifier=_:Formula2 (<class 'rdflib.graph.QuotedGraph'>)>",
+      "rdflib.term.URIRef('https://example.org/dmp-vocab/Completed')"
+    ],
+    [
+      "<Graph identifier=_:Formula6 (<class 'rdflib.graph.QuotedGraph'>)>",
+      "rdflib.term.URIRef('https://example.org/dmp-vocab/Completed')"
+    ],
+    [
+      "<Graph identifier=_:Formula8 (<class 'rdflib.graph.QuotedGraph'>)>",
+      "rdflib.term.URIRef('https://example.org/dmp-vocab/Planned')"
+    ]
+  ],
+  "decoded_rows": [
+    [
+      "https://example.org/example/S1",
+      "https://example.org/dmp-vocab/Completed"
+    ],
+    [
+      "https://example.org/example/S4",
+      "https://example.org/dmp-vocab/Completed"
+    ],
+    [
+      "https://example.org/example/S5",
+      "https://example.org/dmp-vocab/Planned"
+    ]
+  ]
+}

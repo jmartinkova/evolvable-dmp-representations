@@ -1,0 +1,37 @@
+{ "head": {
+    "vars": [ "subject" , "predicate" , "object" , "state" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/localCopy" } ,
+        "predicate": { "type": "uri" , "value": "https://example.org/dmp-vocab/retentionPeriod" } ,
+        "object": { "type": "literal" , "value": "Ten years after project completion" } ,
+        "state": { "type": "uri" , "value": "https://example.org/dmp-vocab/Planned" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "predicate": { "type": "uri" , "value": "http://purl.org/dc/terms/license" } ,
+        "object": { "type": "uri" , "value": "https://creativecommons.org/publicdomain/zero/1.0/" } ,
+        "state": { "type": "uri" , "value": "https://example.org/dmp-vocab/Completed" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "predicate": { "type": "uri" , "value": "https://example.org/dmp-vocab/containsHumanOrSensitiveData" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#boolean" , "value": "false" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "predicate": { "type": "uri" , "value": "http://purl.org/dc/terms/license" } ,
+        "object": { "type": "uri" , "value": "https://creativecommons.org/licenses/by/4.0/" } ,
+        "state": { "type": "uri" , "value": "https://example.org/dmp-vocab/Deprecated" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "predicate": { "type": "uri" , "value": "https://example.org/dmp-vocab/depositedIn" } ,
+        "object": { "type": "uri" , "value": "https://www.ebi.ac.uk/bioimage-archive/" } ,
+        "state": { "type": "uri" , "value": "https://example.org/dmp-vocab/Completed" }
+      }
+    ]
+  }
+}

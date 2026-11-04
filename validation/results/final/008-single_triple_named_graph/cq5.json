@@ -1,0 +1,12 @@
+{ "head": {
+    "vars": [ "statement" , "state" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "statement": { "type": "uri" , "value": "https://example.org/example/S5" } ,
+        "state": { "type": "uri" , "value": "https://example.org/dmp-vocab/Planned" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1242 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix datacite: <http://purl.org/spar/datacite/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcso: <https://w3id.org/dcso/ns/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dmp: <https://example.org/dmp-vocab/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix id: <http://example.com/id/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+id:DMPStandard a dcterms:Standard ;
+    dcterms:title "Horizon Europe Template"@en .
+
+id:S001_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S001 ;
+    dmp:version id:V1 .
+
+id:S002_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S002 ;
+    dmp:version id:V1 .
+
+id:S003_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S003 ;
+    dmp:version id:V1 .
+
+id:S004_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S004 ;
+    dmp:version id:V1 .
+
+id:S005_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S005 ;
+    dmp:version id:V1 .
+
+id:S006_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S006 ;
+    dmp:version id:V1 .
+
+id:S007_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S007 ;
+    dmp:version id:V1 .
+
+id:S008_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S008 ;
+    dmp:version id:V1 .
+
+id:S009_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S009 ;
+    dmp:version id:V1 .
+
+id:S010_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S010 ;
+    dmp:version id:V1 .
+
+id:S011_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S011 ;
+    dmp:version id:V1 .
+
+id:S012_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S012 ;
+    dmp:version id:V1 .
+
+id:S013_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S013 ;
+    dmp:version id:V1 .
+
+id:S014_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S014 ;
+    dmp:version id:V1 .
+
+id:S015_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S015 ;
+    dmp:version id:V1 .
+
+id:S016_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S016 ;
+    dmp:version id:V1 .
+
+id:S017_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S017 ;
+    dmp:version id:V1 .
+
+id:S018_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S018 ;
+    dmp:version id:V1 .
+
+id:S019_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S019 ;
+    dmp:version id:V1 .
+
+id:S020_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S020 ;
+    dmp:version id:V1 .
+
+id:S021_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S021 ;
+    dmp:version id:V1 .
+
+id:S022_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S022 ;
+    dmp:version id:V1 .
+
+id:S023_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S023 ;
+    dmp:version id:V1 .
+
+id:S024_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S024 ;
+    dmp:version id:V1 .
+
+id:S025_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S025 ;
+    dmp:version id:V1 .
+
+id:S026_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S026 ;
+    dmp:version id:V1 .
+
+id:S027_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S027 ;
+    dmp:version id:V1 .
+
+id:S028_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S028 ;
+    dmp:version id:V1 .
+
+id:S029_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S029 ;
+    dmp:version id:V1 .
+
+id:S030_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S030 ;
+    dmp:version id:V1 .
+
+id:S031_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S031 ;
+    dmp:version id:V1 .
+
+id:S032_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S032 ;
+    dmp:version id:V1 .
+
+id:S033_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S033 ;
+    dmp:version id:V1 .
+
+id:S034_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S034 ;
+    dmp:version id:V1 .
+
+id:S035_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S035 ;
+    dmp:version id:V1 .
+
+id:S036_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S036 ;
+    dmp:version id:V1 .
+
+id:S037_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S037 ;
+    dmp:version id:V1 .
+
+id:S038_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S038 ;
+    dmp:version id:V1 .
+
+id:S039_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S039 ;
+    dmp:version id:V1 .
+
+id:S040_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S040 ;
+    dmp:version id:V1 .
+
+id:S041_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S041 ;
+    dmp:version id:V1 .
+
+id:S042_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S042 ;
+    dmp:version id:V1 .
+
+id:S043_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S043 ;
+    dmp:version id:V1 .
+
+id:S044_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S044 ;
+    dmp:version id:V1 .
+
+id:S045_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S045 ;
+    dmp:version id:V1 .
+
+id:S046_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S046 ;
+    dmp:version id:V1 .
+
+id:S047_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S047 ;
+    dmp:version id:V1 .
+
+id:S048_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S048 ;
+    dmp:version id:V1 .
+
+id:S049_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S049 ;
+    dmp:version id:V1 .
+
+id:S050_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S050 ;
+    dmp:version id:V1 .
+
+id:S051_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S051 ;
+    dmp:version id:V1 .
+
+id:S052_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S052 ;
+    dmp:version id:V1 .
+
+id:S053_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S053 ;
+    dmp:version id:V1 .
+
+id:S054_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S054 ;
+    dmp:version id:V1 .
+
+id:S055_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S055 ;
+    dmp:version id:V1 .
+
+id:S056_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S056 ;
+    dmp:version id:V1 .
+
+id:S057_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S057 ;
+    dmp:version id:V1 .
+
+id:S058_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S058 ;
+    dmp:version id:V1 .
+
+id:S059_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S059 ;
+    dmp:version id:V1 .
+
+id:S060_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S060 ;
+    dmp:version id:V1 .
+
+id:S061_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S061 ;
+    dmp:version id:V1 .
+
+id:S062_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S062 ;
+    dmp:version id:V1 .
+
+id:S063_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S063 ;
+    dmp:version id:V1 .
+
+id:S064_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S064 ;
+    dmp:version id:V1 .
+
+id:S065_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S065 ;
+    dmp:version id:V1 .
+
+id:S066_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S066 ;
+    dmp:version id:V1 .
+
+id:S067_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S067 ;
+    dmp:version id:V1 .
+
+id:S068_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S068 ;
+    dmp:version id:V1 .
+
+id:S069_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S069 ;
+    dmp:version id:V1 .
+
+id:S070_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S070 ;
+    dmp:version id:V1 .
+
+id:S071_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S071 ;
+    dmp:version id:V1 .
+
+id:S072_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S072 ;
+    dmp:version id:V1 .
+
+id:S073_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S073 ;
+    dmp:version id:V1 .
+
+id:S074_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S074 ;
+    dmp:version id:V1 .
+
+id:S075_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S075 ;
+    dmp:version id:V1 .
+
+id:S076_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S076 ;
+    dmp:version id:V1 .
+
+id:S077_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S077 ;
+    dmp:version id:V1 .
+
+id:S078_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S078 ;
+    dmp:version id:V1 .
+
+id:S079_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S079 ;
+    dmp:version id:V1 .
+
+id:S080_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S080 ;
+    dmp:version id:V1 .
+
+id:S081_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S081 ;
+    dmp:version id:V1 .
+
+id:S082_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S082 ;
+    dmp:version id:V1 .
+
+id:S083_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S083 ;
+    dmp:version id:V1 .
+
+id:S084_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S084 ;
+    dmp:version id:V1 .
+
+id:S085_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S085 ;
+    dmp:version id:V1 .
+
+id:S086_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S086 ;
+    dmp:version id:V1 .
+
+id:S087_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S087 ;
+    dmp:version id:V1 .
+
+id:S088_V1 a dmp:StatementInclusion ;
+    dmp:statement id:S088 ;
+    dmp:version id:V1 .
+
+id:S089_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement id:S089 ;
+    dmp:version id:V1 .
+
+id:attributionCreator a prov:Attribution .
+
+id:attributionDataManager a prov:Attribution .
+
+id:attributionInvestigator a prov:Attribution .
+
+id:attributionProjectAdministrator a prov:Attribution .
+
+id:cc a dcterms:LicenseDocument ;
+    dcterms:identifier <https://creativecommons.org/licenses/by/4.0/> .
+
+id:concept1OfDataset a skos:Concept ;
+    dcterms:description "psychological"@en .
+
+id:concept2OfDataset a skos:Concept ;
+    dcterms:description "lay people’s and philosophers’ susceptibility"@en .
+
+id:concept3OfDataset a skos:Concept ;
+    dcterms:description " Demographic data "@en .
+
+id:dataIdentifier a datacite:Identifier ;
+    datacite:usesIdentifierScheme datacite:doi .
+
+id:dataProvenance a dcterms:ProvenanceStatement ;
+    dcterms:description "Most of the project’s empirical studies will be designed in Qualtrics, an online survey software. Participants of the studies will be recruited from online crowdsourcing pools such as Prolific Academic, mostly in the US. For their time and effort all participants will be compensated at an hourly rate that is above the national minimal income."@en .
+
+id:dataProvenanceStandard a dcterms:Standard ;
+    dcterms:description "the common standards in psychology and experimental philosophy, i.e., studies will be reported in a journal article which involves a dedicated “Participants” section, specifying how participants were recruited, what number of participants were recruited, why this number of participants was recruited, who the participants were (demographic data), etc."@en .
+
+id:dataset a schema:Thing,
+        dcat:Dataset ;
+    dcterms:description "The data may include qualified references to other data that has been collected in the project. If this is the case (for example, if follow-up studies are conducted to be better able to evaluate explanations of data or cross-cultural research is conducted to test previous findings’ generalizability across different countries) then the scientific links between the datasets will be described on OSF as well as in the resulting pre-prints and journal articles."@en .
+
+id:datasetAccessProtocol a schema:EntryPoint .
+
+id:datasetAccessibility a dmp:Access .
+
+id:datasetAvailability a dmp:Availability .
+
+id:datasetAvailabilityDuration a dcterms:PeriodOfTime ;
+    dmp:minimumDuration "At least ten years"@en .
+
+id:datasetEmbargo a dmp:Embargo .
+
+id:datasetInformedConsent a dmp:InformedConsent ;
+    dcterms:description "Yes, each study will involve a consent page. Participants will be asked to agree to the following claims before they can complete the studies: I agree that my personal data (including demographic information), which is collected anonymously during this study, is processed by the University of Graz by means of statistical data analysis for research purposes and used to publish scientific papers. I agree that my anonymized data will be made available in open databases (e.g. in the Open Science Framework; https://osf.io/) indefinitely for the purpose of scientific transparency. I can withdraw my consent to the processing of my data at any time by writing to Dr. Thomas Pölzler, thomas.poelzler@uni-graz.at, University of Graz, Attemsgasse 25/II, 8010 Graz. The revocation does not affect the legality of the data processed until the revocation. I have read the above instructions and I agree to participate. I know that I can cancel my participation at any time without giving reasons"@en .
+
+id:datasetPreservation a dmp:Preservation .
+
+id:datasetPreservationDuration a dcterms:PeriodOfTime ;
+    dmp:minimumDuration "At least ten years"@en .
+
+id:datasetSecurityPrivacy a dcso:SecurityPrivacy ;
+    dcterms:description "  If the project collects sensitive data then this data will be sufficiently anonymized before being uploaded to OSF. The original sensitive data, stored on the USB flash drive, will be password protected. It can only be accessed by the project leader and co-authors who have collaborated in generating and analysing the data."@en .
+
+id:distribution a dcat:Distribution .
+
+id:fairDataCost a schema:MonetaryAmount ;
+    sioc:topic id:makingDataFAIR ;
+    schema:value 0 .
+
+id:formatOfDistribution1 a dcterms:MediaTypeOrExtent ;
+    dcterms:abbreviation "xls"@en .
+
+id:formatOfDistribution2 a dcterms:MediaTypeOrExtent ;
+    dcterms:abbreviation "csv"@en .
+
+id:formatOfMetadataDocument a dcterms:MediaTypeOrExtent ;
+    dcterms:abbreviation "JSON"@en ;
+    dcterms:title "JavaScript Object Notation"@en .
+
+id:grant a schema:Grant ;
+    dcterms:identifier "101105332 "@en ;
+    schema:funder id:funder .
+
+id:indexingSoftware a schema:SoftwareApplication ;
+    dcterms:description "search engines such as Google"@en .
+
+id:metadata a fabio:Metadata .
+
+id:metadataAccessibility a dmp:Access .
+
+id:metadataAvailability a dmp:Availability .
+
+id:metadataAvailabilityDuration a dcterms:PeriodOfTime ;
+    dmp:minimumDuration "At least ten years"@en .
+
+id:metadataDocument a fabio:MetadataDocument ;
+    dmp:containsMetadataElement "Date created"@en,
+        "Date modified"@en,
+        "Date registered"@en,
+        "Resource language"@en,
+        "Resource type"@en,
+        "Study Description"@en,
+        "Subjects"@en,
+        "Tags"@en,
+        "abstract "@en,
+        "author names"@en,
+        "keywords"@en,
+        "title"@en .
+
+id:metadataEntryPoint a schema:EntryPoint ;
+    dcterms:description "Each study will be pre-registered on OSF. The pre-registration will provide detailed information about the studies’ experimental design, analyses, rules for excluding participants, etc. In shortened form, much of this information will be included in the resulting pre-prints and journal articles as well. Finally, I will upload all questionnaires in full (in the form of qualtrics-generated pdfs) on OSF to allow other researchers to check and potentially re-use the studies’ materials, such as specific vignettes and questions."@en .
+
+id:metadataIdentifier a datacite:Identifier ;
+    datacite:usesIdentifierScheme datacite:doi .
+
+id:methodologyStandard a dcterms:Standard ;
+    dcterms:description " inferential statistics, deductive and inductive arguments, etc."@en .
+
+id:osf a dcat:DataService ;
+    dcterms:abbreviation "OSF"@en ;
+    dcterms:identifier <https://osf.io/> .
+
+id:person-0000-0002-4311-0897 a foaf:Person ;
+    dcterms:identifier <https://orcid.org/0000-0002-4311-0897> .
+
+id:preservationDataCost a schema:MonetaryAmount ;
+    sioc:topic id:preservationData ;
+    schema:value 0 .
+
+id:project a schema:Project,
+        prov:Entity,
+        foaf:Project .
+
+id:projectDuration a dcterms:PeriodOfTime ;
+    dcterms:endDate "04-10-2026"@en ;
+    dcterms:startDate "05-10-2023"@en .
+
+id:projectObjective1 a rdfs:Resource ;
+    dcterms:description "How robust is the VOI (i.e., to what extent are the judgments people arrive at by engaging in the thought experiment (easily or overly) influenced by irrelevant factors) "@en .
+
+id:projectObjective2 a rdfs:Resource ;
+    dcterms:description " How effective is the VOI (i.e., to what extent does it fulfill the (epistemic or illustrative) function it was supposed to fulfill)"@en .
+
+id:projectObjective3 a rdfs:Resource ;
+    dcterms:description " What are the larger philosophical implications of the project’s findings of about the robustness and effectivity of the VOI"@en .
+
+id:projectRights a dcterms:RightsStatement ;
+    dcterms:description "The above plan creator(s) have agreed that others may use as much of the text of this plan  as they would like in their own plans, and customise it as necessary. You do not need to credit the creator(s) as the source of the language used, but using any of the plan's text does not imply that the creator(s) endorse, or have any relationship to, your project or proposal"@en .
+
+id:research a schema:Action .
+
+id:usableForWho a rdfs:Resource ;
+    dcterms:description "The veil of ignorance thought experiment has been highly prominent in philosophy, at least since Rawls’ publication of A Theory of Justice in 1971, and has recently also been increasingly investigated by empirical researchers, such as experimental economists and psychologists. I therefore expect that the generated data will be of high usefulness outside of the project. In particular, it will be useful to philosophers who have worked on or with the veil of ignorance thought experiment (it will provide information on whether and how the thought experiment may be justifiably employed in philosophical argumentation) and to empirical scientists interested in moral cognition and decision-making (it will provide information of the thought experiment’s reliability and effectiveness)."@en .
+
+dmp:Completed a skos:Concept ;
+    skos:prefLabel "Completed"@en .
+
+dmp:Deprecated a skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+
+dmp:Undefined a skos:Concept ;
+    skos:prefLabel "Undefined"@en .
+
+id:S001 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S002 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S003 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S004 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S005 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S006 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S007 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S008 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S009 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S010 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S011 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S012 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S013 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S014 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S015 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S016 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S017 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S018 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S019 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S020 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S021 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S022 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S023 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S024 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S025 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S026 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S027 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S028 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S029 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S030 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S031 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S032 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S033 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S034 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S035 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S036 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S037 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S038 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S039 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S040 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S041 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S042 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S043 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S044 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S045 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S046 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S047 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S048 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S049 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S050 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S051 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S052 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S053 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S054 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S055 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S056 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S057 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S058 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S059 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S060 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S061 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S062 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S063 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S064 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S065 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S066 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S067 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S068 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S069 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S070 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S071 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S072 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S073 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S074 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S075 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S076 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S077 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S078 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S079 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S080 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S081 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S082 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S083 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S084 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S085 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S086 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S087 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S088 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:S089 a dmp:Statement ;
+    dcterms:source id:DMP .
+
+id:funder a foaf:Agent ;
+    dcterms:title "European Commission"@en .
+
+id:makingDataFAIR a rdfs:Resource ;
+    dcterms:description " making data or other research outputs FAIR"@en .
+
+id:preservationData a rdfs:Resource ;
+    dcterms:description "preservation Data"@en .
+
+datacite:doi a datacite:ResourceIdentifierScheme .
+
+dmp:Planned a skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+id:V1 a dmp:DMPVersion ;
+    dmp:versionOf id:DMP .
+
+id:DMP a fabio:DataManagementPlan,
+        dmp:DMP ;
+    dcterms:identifier "135692"@en .
+
+
+# Content graphs
+
+id:S001 {
+    id:project dmp:hasDataManagementPlan id:DMP .
+}
+
+id:S002 {
+    id:project dmp:hasResearch id:research .
+}
+
+id:S003 {
+    id:project dcterms:title " Making Morality Impartial: An Experimental Investigation of the Veil of ignorance "@en .
+}
+
+id:S004 {
+    id:project prov:qualifiedAttribution id:attributionCreator .
+}
+
+id:S005 {
+    id:project prov:qualifiedAttribution id:attributionInvestigator .
+}
+
+id:S006 {
+    id:project prov:qualifiedAttribution id:attributionDataManager .
+}
+
+id:S007 {
+    id:project prov:qualifiedAttribution id:attributionProjectAdministrator .
+}
+
+id:S008 {
+    id:project foaf:fundedBy id:funder .
+}
+
+id:S009 {
+    id:project schema:funder id:funder .
+}
+
+id:S010 {
+    id:project dcterms:description "We are living in an age of increased moral disagreement and polarization. One explanation for this trend is partiality. People on one or both sides of contested social issue (abortion, COVID-19, climate change, etc.) do not give equal or adequate weight to the interests of all those concerned. Their views are based on bias or prejudice. Finding ways of increasing impartiality may therefore be one of the most important tasks that humanity currently faces. My project attempts to contribute to this task. In particular, I will investigate one particular device that philosophers have used to promote impartial reasoning, namely the so called “veil of ignorance” thought experiment — an attempt to abstract from knowledge about one’s gender, race, income and other morally irrelevant characteristics that might distort one’s judgments. Previous research has only focused on people’s actual choices behind the veil of ignorance. My project, in contrast, will investigate the methodological appropriateness of this thought experiment. (1) How robust is the VOI (i.e. to what extent are the judgments people arrive at by engaging in the thought experiment influenced by irrelevant factors)? (2) How effective is the VOI (i.e. to what extent does it fulfil the function it was supposed to fulfil)? (3) What are the larger philosophical implications of these findings? The framework that I will use in investigating these questions is that of experimental philosophy. That is, I will run empirical studies on people’s intuitions to inform philosophical argumentation. Being supervised by leading experts at the Universities of Toky (outgoing phase), Graz (return phase), Oxford (secondment) and Auckland (secondment), my research has the potential to significantly impact a number of debates in both philosophy and psychology — and hopefully, it can also make a small contribution to making morality more impartial in public discourse. "@en .
+}
+
+id:S011 {
+    id:project dcterms:temporal id:projectDuration .
+}
+
+id:S012 {
+    id:project schema:funding id:grant .
+}
+
+id:S013 {
+    id:project dcterms:rights id:projectRights .
+}
+
+id:S014 {
+    id:project dmp:hasObjective id:projectObjective1 .
+}
+
+id:S015 {
+    id:project dmp:hasObjective id:projectObjective2 .
+}
+
+id:S016 {
+    id:project dmp:hasObjective id:projectObjective3 .
+}
+
+id:S017 {
+    id:research schema:result id:dataset .
+}
+
+id:S018 {
+    id:research dmp:numberOfResults "1"@en .
+}
+
+id:S019 {
+    id:person-0000-0002-4311-0897 foaf:firstName " Thomas "@en .
+}
+
+id:S020 {
+    id:person-0000-0002-4311-0897 foaf:surname " Pölzler "@en .
+}
+
+id:S021 {
+    id:person-0000-0002-4311-0897 schema:affiliation "Other "@en .
+}
+
+id:S022 {
+    id:attributionCreator prov:agent id:person-0000-0002-4311-0897 .
+}
+
+id:S023 {
+    id:attributionCreator dcat:hadRole <http://purl.obolibrary.org/obo/CRO_0000107> .
+}
+
+id:S024 {
+    id:attributionInvestigator prov:agent id:person-0000-0002-4311-0897 .
+}
+
+id:S025 {
+    id:attributionInvestigator dcat:hadRole <http://purl.org/credit/ontology#CREDIT_00000005> .
+}
+
+id:S026 {
+    id:attributionDataManager prov:agent id:person-0000-0002-4311-0897 .
+}
+
+id:S027 {
+    id:attributionDataManager dcat:hadRole <http://purl.obolibrary.org/obo/CRO_0000015> .
+}
+
+id:S028 {
+    id:attributionProjectAdministrator prov:agent id:person-0000-0002-4311-0897 .
+}
+
+id:S029 {
+    id:attributionProjectAdministrator dcat:hadRole <http://purl.org/credit/ontology#CREDIT_00000007> .
+}
+
+id:S030 {
+    id:DMP dmp:usesTemplate id:DMPStandard .
+}
+
+id:S031 {
+    id:dataset dmp:reusingData "No"@en .
+}
+
+id:S032 {
+    id:dataset dcat:distribution id:distribution .
+}
+
+id:S033 {
+    id:dataset dcat:theme id:concept1OfDataset .
+}
+
+id:S034 {
+    id:dataset dcat:theme id:concept2OfDataset .
+}
+
+id:S035 {
+    id:dataset dcat:theme id:concept3OfDataset .
+}
+
+id:S036 {
+    id:dataset dmp:fulfilObjective id:projectObjective1 .
+}
+
+id:S037 {
+    id:dataset dmp:fulfilObjective id:projectObjective2 .
+}
+
+id:S038 {
+    id:dataset dmp:fulfilObjective id:projectObjective3 .
+}
+
+id:S039 {
+    id:dataset dcterms:provenance id:dataProvenance .
+}
+
+id:S040 {
+    id:dataset dmp:isUseableFor id:usableForWho .
+}
+
+id:S041 {
+    id:dataset datacite:hasIdentifier id:dataIdentifier .
+}
+
+id:S042 {
+    id:dataset dmp:hasMetadata id:metadata .
+}
+
+id:S043 {
+    id:dataset dmp:hasAvailability id:datasetAvailability .
+}
+
+id:S044 {
+    id:dataset dcterms:conformsTo id:methodologyStandard .
+}
+
+id:S045 {
+    id:dataset dcso:dataQualityAssurance "All of the project’s studies will involve extensive pre-tests, so as to identify potential improvements of their designs before they are actually conducted. To prevent “insufficient effort responding” (e.g., Huang et al. 2012) we will keep surveys as short and simple as possible and only accept participants who have an approval rate above 95% in online crowdsourcing recruitment. Participants who nevertheless show insufficient effort will be identified by a number of measures, such as attention checks, comprehension checks and open-ended questions, and subsequently excluded from analysis (Pölzler 2022). To ensure a high rate of replicability we will make sure to have at least 90% power for effects of interest, d = 0.4."@en .
+}
+
+id:S046 {
+    id:dataset schema:estimatedCost id:fairDataCost .
+}
+
+id:S047 {
+    id:dataset dmp:hasPreservation id:datasetPreservation .
+}
+
+id:S048 {
+    id:dataset dcso:backupType "In addition to being stored in OSF, all data will also be stored on a USB flash drive that will be managed by the project leader at the location at which the research currently takes place (Tokyo, Oxford, Wellington or Graz). After the end of the project the flash drive will be stored at the Department of Philosophy of the University of Graz."@en .
+}
+
+id:S049 {
+    id:dataset dcso:hasSecurityPrivacy id:datasetSecurityPrivacy .
+}
+
+id:S050 {
+    id:dataset dcso:ethicalIssueDescription "The only potential limitation to data-sharing could arise in the context of potential qualitative research which reveals demographic facts that might be used to identify participants. In the case of such research I will proceed as described above: de-identify the data (e.g., exclude references to a participant’s age or location) before uploading it to OSF, and, upon completion of the research, store the original data on a password-protected section of the above-mentioned flash-drive which can only be accessed by contributing researchers."@en .
+}
+
+id:S051 {
+    id:dataset dcso:personalData "Yes"@en .
+}
+
+id:S052 {
+    id:dataset dmp:includeInformedConsent id:datasetInformedConsent .
+}
+
+id:S053 {
+    id:dataset dmp:usableForThirdParties "Yes"@en .
+}
+
+id:S054 {
+    id:distribution dcterms:format id:formatOfDistribution1 .
+}
+
+id:S055 {
+    id:distribution dcterms:format id:formatOfDistribution2 .
+}
+
+id:S056 {
+    id:dataset dmp:expectedTotalSize "Less than 100 MB, including project outputs"@en .
+}
+
+id:S057 {
+    id:distribution dcat:accessService id:osf .
+}
+
+id:S058 {
+    id:distribution dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+}
+
+id:S059 {
+    id:dataProvenance dcterms:conformsTo id:dataProvenanceStandard .
+}
+
+id:S060 {
+    id:metadata fabio:hasRepresentation id:metadataDocument .
+}
+
+id:S061 {
+    id:metadata dmp:hasSearchKeywords "Yes "@en .
+}
+
+id:S062 {
+    id:metadata dmp:hasAvailability id:metadataAvailability .
+}
+
+id:S063 {
+    id:metadata datacite:hasIdentifier id:metadataIdentifier .
+}
+
+id:S064 {
+    id:metadataDocument dmp:containsMetadataElement "ORCID"@en .
+}
+
+id:S065 {
+    id:metadataDocument dcterms:format id:formatOfMetadataDocument .
+}
+
+id:S066 {
+    id:metadataDocument dmp:isIndexedBy id:indexingSoftware .
+}
+
+id:S067 {
+    id:osf dmp:isTrusted "Yes"@en .
+}
+
+id:S068 {
+    id:person-0000-0002-4311-0897 dmp:accountDescription "I have an account, registered under my name, which I have used for several years."@en .
+}
+
+id:S069 {
+    id:osf dmp:assignsIdentifier datacite:doi .
+}
+
+id:S070 {
+    id:datasetAvailability dmp:accessibility id:datasetAccessibility .
+}
+
+id:S071 {
+    id:datasetAvailability dmp:hasEmbargo id:datasetEmbargo .
+}
+
+id:S072 {
+    id:datasetAvailability dmp:availabilityDuration id:datasetAvailabilityDuration .
+}
+
+id:S073 {
+    id:datasetAvailability dmp:availableInPublicDomain " All data will be made freely available in the public domain via OSF."@en .
+}
+
+id:S074 {
+    id:datasetAccessibility dcso:dataAccess "open"@en .
+}
+
+id:S075 {
+    id:datasetAccessibility dmp:legalReason " Some qualitative data may be de-identified to protect the anonymity of research participants, based on de-identification rules that are developed prior to the respective studies. For example, if participants provide information about their age or location in the course of a qualitative study this data might be removed prior to the data being made openly available"@en .
+}
+
+id:S076 {
+    id:datasetAccessibility schema:target id:datasetAccessProtocol .
+}
+
+id:S077 {
+    id:datasetAccessibility dmp:accessIdentityDetection "No"@en .
+}
+
+id:S078 {
+    id:datasetAccessibility dmp:needForAccessRegulator "No"@en .
+}
+
+id:S079 {
+    id:datasetEmbargo dmp:isEmbargoApplied "No"@en .
+}
+
+id:S080 {
+    id:datasetAccessProtocol dmp:usingStandardFreeProtocol "Yes"@en .
+}
+
+id:S081 {
+    id:metadataAvailability dmp:accessibility id:metadataAccessibility .
+}
+
+id:S082 {
+    id:metadataAvailability dmp:availabilityDuration id:metadataAvailabilityDuration .
+}
+
+id:S083 {
+    id:metadataAccessibility dcso:dataAccess "open"@en .
+}
+
+id:S084 {
+    id:metadataAccessibility schema:target id:metadataEntryPoint .
+}
+
+id:S085 {
+    id:metadataDocument dmp:containsMetadataElement "information to enable the users to access the data."@en .
+}
+
+id:S086 {
+    id:metadataEntryPoint schema:actionApplication id:osf .
+}
+
+id:S087 {
+    id:datasetPreservation dmp:preservationDuration id:datasetPreservationDuration .
+}
+
+id:S088 {
+    id:datasetPreservation schema:estimatedCost id:preservationDataCost .
+}
+
+id:S089 {
+    id:distribution dmp:plannedFormatOptions "XLS or CSV"@en .
+}

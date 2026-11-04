@@ -1,0 +1,40 @@
+{
+  "query": "CQ1",
+  "status": "MATCH",
+  "expected": {
+    "vars": [
+      "statement",
+      "state"
+    ],
+    "rows": [
+      [
+        "https://example.org/example/S1",
+        "https://example.org/dmp-vocab/Completed"
+      ],
+      [
+        "https://example.org/example/S4",
+        "https://example.org/dmp-vocab/Completed"
+      ],
+      [
+        "https://example.org/example/S5",
+        "https://example.org/dmp-vocab/Planned"
+      ]
+    ]
+  },
+  "decoded_distinct_results": [
+    [
+      "https://example.org/example/S1",
+      "https://example.org/dmp-vocab/Completed"
+    ],
+    [
+      "https://example.org/example/S4",
+      "https://example.org/dmp-vocab/Completed"
+    ],
+    [
+      "https://example.org/example/S5",
+      "https://example.org/dmp-vocab/Planned"
+    ]
+  ],
+  "missing": [],
+  "unexpected": []
+}

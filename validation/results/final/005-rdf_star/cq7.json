@@ -1,0 +1,16 @@
+{ "head": {
+    "vars": [ "subject" , "predicate" , "object" , "supersededSubject" , "supersededPredicate" , "supersededObject" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "predicate": { "type": "uri" , "value": "http://purl.org/dc/terms/license" } ,
+        "object": { "type": "uri" , "value": "https://creativecommons.org/publicdomain/zero/1.0/" } ,
+        "supersededSubject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "supersededPredicate": { "type": "uri" , "value": "http://purl.org/dc/terms/license" } ,
+        "supersededObject": { "type": "uri" , "value": "https://creativecommons.org/licenses/by/4.0/" }
+      }
+    ]
+  }
+}

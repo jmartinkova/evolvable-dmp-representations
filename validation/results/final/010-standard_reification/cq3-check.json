@@ -1,0 +1,37 @@
+{
+  "query": "cq3",
+  "command": [
+    "/opt/homebrew/Cellar/jena/6.2.0/libexec/bin/arq",
+    "--data=/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/example/v2/standard_reification.ttl",
+    "--query=/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/competency-questions/cq3.rq",
+    "--results=JSON"
+  ],
+  "expected": {
+    "vars": [
+      "statement",
+      "stateV1",
+      "stateV2"
+    ],
+    "rows": [
+      [
+        "https://example.org/example/S1",
+        "https://example.org/dmp-vocab/Planned",
+        "https://example.org/dmp-vocab/Completed"
+      ],
+      [
+        "https://example.org/example/S2",
+        "https://example.org/dmp-vocab/Planned",
+        "https://example.org/dmp-vocab/Deprecated"
+      ],
+      [
+        "https://example.org/example/S3",
+        null,
+        null
+      ]
+    ]
+  },
+  "status": "MATCH",
+  "raw_rows": 3,
+  "missing": [],
+  "unexpected": []
+}

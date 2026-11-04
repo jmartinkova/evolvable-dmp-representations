@@ -1,0 +1,9 @@
+<%%dataset%%> a dcat:Dataset .
+
+{ <%%dataset%%> dct:license <https://creativecommons.org/licenses/by/4.0/> . }
+    dct:source ex:DMP ;
+    is dmp:statement of <%%inclusion%%> .
+
+<%%inclusion%%> a dmp:StatementInclusion ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .

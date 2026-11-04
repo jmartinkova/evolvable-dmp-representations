@@ -1,0 +1,10 @@
+{
+  "kind": "rdf-star",
+  "input": "/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/example/v2/rdf_star.ttl",
+  "sha256": "1068edd12cbfaf9c05b98a720ab723e0e52d9611e209bdbe8b4580bb34ce3365",
+  "python": "3.13.11",
+  "comparison": "decode ground single-triple content to S1--S5; distinct rows; ignore ordering",
+  "query_directory": "special-queries/rdf-star",
+  "arq": "/Users/janamartinkova/Desktop/GitHub/phd/RDF-benchmark/apache-jena-5.3.0/bin/arq",
+  "version_output": "Apache Jena version 5.3.0\n"
+}

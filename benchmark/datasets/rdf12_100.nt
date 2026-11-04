@@ -1,0 +1,906 @@
+<https://example.org/example/DMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/DMP> .
+<https://example.org/example/V1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/DMPVersion> .
+<https://example.org/example/V1> <https://example.org/dmp-vocab/versionOf> <https://example.org/example/DMP> .
+<https://example.org/dmp-vocab/Planned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://example.org/dmp-vocab/Planned> <http://www.w3.org/2004/02/skos/core#prefLabel> "Planned"@en .
+
+<https://example.org/benchmark/dataset/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/1> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/1> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/1> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/1> .
+<https://example.org/benchmark/inclusion/1> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/1> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/2> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/2> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/2> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/2> .
+<https://example.org/benchmark/inclusion/2> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/2> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/3> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/3> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/3> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/3> .
+<https://example.org/benchmark/inclusion/3> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/3> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/4> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/4> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/4> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/4> .
+<https://example.org/benchmark/inclusion/4> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/4> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/5> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/5> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/5> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/5> .
+<https://example.org/benchmark/inclusion/5> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/5> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/6> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/6> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/6> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/6> .
+<https://example.org/benchmark/inclusion/6> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/6> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/7> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/7> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/7> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/7> .
+<https://example.org/benchmark/inclusion/7> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/7> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/8> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/8> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/8> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/8> .
+<https://example.org/benchmark/inclusion/8> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/8> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/9> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/9> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/9> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/9> .
+<https://example.org/benchmark/inclusion/9> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/9> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/10> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/10> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/10> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/10> .
+<https://example.org/benchmark/inclusion/10> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/10> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/11> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/11> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/11> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/11> .
+<https://example.org/benchmark/inclusion/11> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/11> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/12> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/12> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/12> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/12> .
+<https://example.org/benchmark/inclusion/12> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/12> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/13> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/13> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/13> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/13> .
+<https://example.org/benchmark/inclusion/13> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/13> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/14> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/14> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/14> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/14> .
+<https://example.org/benchmark/inclusion/14> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/14> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/15> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/15> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/15> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/15> .
+<https://example.org/benchmark/inclusion/15> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/15> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/16> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/16> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/16> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/16> .
+<https://example.org/benchmark/inclusion/16> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/16> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/17> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/17> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/17> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/17> .
+<https://example.org/benchmark/inclusion/17> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/17> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/18> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/18> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/18> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/18> .
+<https://example.org/benchmark/inclusion/18> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/18> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/19> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/19> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/19> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/19> .
+<https://example.org/benchmark/inclusion/19> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/19> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/20> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/20> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/20> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/20> .
+<https://example.org/benchmark/inclusion/20> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/20> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/21> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/21> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/21> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/21> .
+<https://example.org/benchmark/inclusion/21> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/21> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/22> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/22> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/22> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/22> .
+<https://example.org/benchmark/inclusion/22> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/22> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/23> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/23> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/23> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/23> .
+<https://example.org/benchmark/inclusion/23> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/23> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/24> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/24> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/24> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/24> .
+<https://example.org/benchmark/inclusion/24> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/24> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/25> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/25> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/25> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/25> .
+<https://example.org/benchmark/inclusion/25> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/25> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/26> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/26> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/26> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/26> .
+<https://example.org/benchmark/inclusion/26> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/26> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/27> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/27> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/27> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/27> .
+<https://example.org/benchmark/inclusion/27> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/27> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/28> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/28> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/28> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/28> .
+<https://example.org/benchmark/inclusion/28> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/28> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/29> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/29> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/29> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/29> .
+<https://example.org/benchmark/inclusion/29> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/29> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/30> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/30> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/30> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/30> .
+<https://example.org/benchmark/inclusion/30> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/30> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/31> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/31> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/31> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/31> .
+<https://example.org/benchmark/inclusion/31> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/31> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/32> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/32> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/32> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/32> .
+<https://example.org/benchmark/inclusion/32> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/32> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/33> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/33> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/33> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/33> .
+<https://example.org/benchmark/inclusion/33> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/33> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/34> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/34> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/34> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/34> .
+<https://example.org/benchmark/inclusion/34> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/34> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/35> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/35> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/35> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/35> .
+<https://example.org/benchmark/inclusion/35> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/35> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/36> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/36> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/36> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/36> .
+<https://example.org/benchmark/inclusion/36> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/36> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/37> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/37> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/37> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/37> .
+<https://example.org/benchmark/inclusion/37> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/37> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/38> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/38> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/38> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/38> .
+<https://example.org/benchmark/inclusion/38> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/38> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/39> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/39> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/39> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/39> .
+<https://example.org/benchmark/inclusion/39> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/39> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/40> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/40> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/40> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/40> .
+<https://example.org/benchmark/inclusion/40> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/40> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/41> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/41> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/41> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/41> .
+<https://example.org/benchmark/inclusion/41> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/41> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/42> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/42> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/42> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/42> .
+<https://example.org/benchmark/inclusion/42> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/42> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/43> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/43> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/43> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/43> .
+<https://example.org/benchmark/inclusion/43> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/43> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/44> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/44> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/44> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/44> .
+<https://example.org/benchmark/inclusion/44> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/44> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/45> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/45> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/45> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/45> .
+<https://example.org/benchmark/inclusion/45> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/45> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/46> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/46> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/46> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/46> .
+<https://example.org/benchmark/inclusion/46> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/46> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/47> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/47> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/47> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/47> .
+<https://example.org/benchmark/inclusion/47> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/47> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/48> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/48> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/48> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/48> .
+<https://example.org/benchmark/inclusion/48> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/48> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/49> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/49> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/49> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/49> .
+<https://example.org/benchmark/inclusion/49> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/49> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/50> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/50> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/50> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/50> .
+<https://example.org/benchmark/inclusion/50> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/50> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/51> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/51> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/51> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/51> .
+<https://example.org/benchmark/inclusion/51> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/51> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/52> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/52> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/52> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/52> .
+<https://example.org/benchmark/inclusion/52> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/52> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/53> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/53> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/53> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/53> .
+<https://example.org/benchmark/inclusion/53> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/53> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/54> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/54> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/54> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/54> .
+<https://example.org/benchmark/inclusion/54> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/54> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/55> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/55> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/55> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/55> .
+<https://example.org/benchmark/inclusion/55> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/55> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/56> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/56> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/56> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/56> .
+<https://example.org/benchmark/inclusion/56> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/56> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/57> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/57> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/57> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/57> .
+<https://example.org/benchmark/inclusion/57> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/57> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/58> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/58> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/58> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/58> .
+<https://example.org/benchmark/inclusion/58> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/58> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/59> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/59> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/59> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/59> .
+<https://example.org/benchmark/inclusion/59> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/59> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/60> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/60> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/60> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/60> .
+<https://example.org/benchmark/inclusion/60> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/60> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/61> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/61> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/61> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/61> .
+<https://example.org/benchmark/inclusion/61> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/61> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/62> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/62> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/62> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/62> .
+<https://example.org/benchmark/inclusion/62> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/62> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/63> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/63> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/63> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/63> .
+<https://example.org/benchmark/inclusion/63> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/63> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/64> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/64> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/64> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/64> .
+<https://example.org/benchmark/inclusion/64> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/64> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/65> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/65> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/65> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/65> .
+<https://example.org/benchmark/inclusion/65> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/65> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/66> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/66> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/66> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/66> .
+<https://example.org/benchmark/inclusion/66> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/66> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/67> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/67> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/67> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/67> .
+<https://example.org/benchmark/inclusion/67> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/67> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/68> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/68> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/68> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/68> .
+<https://example.org/benchmark/inclusion/68> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/68> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/69> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/69> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/69> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/69> .
+<https://example.org/benchmark/inclusion/69> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/69> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/70> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/70> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/70> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/70> .
+<https://example.org/benchmark/inclusion/70> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/70> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/71> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/71> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/71> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/71> .
+<https://example.org/benchmark/inclusion/71> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/71> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/72> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/72> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/72> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/72> .
+<https://example.org/benchmark/inclusion/72> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/72> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/73> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/73> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/73> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/73> .
+<https://example.org/benchmark/inclusion/73> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/73> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/74> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/74> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/74> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/74> .
+<https://example.org/benchmark/inclusion/74> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/74> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/75> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/75> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/75> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/75> .
+<https://example.org/benchmark/inclusion/75> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/75> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/76> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/76> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/76> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/76> .
+<https://example.org/benchmark/inclusion/76> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/76> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/77> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/77> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/77> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/77> .
+<https://example.org/benchmark/inclusion/77> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/77> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/78> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/78> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/78> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/78> .
+<https://example.org/benchmark/inclusion/78> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/78> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/79> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/79> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/79> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/79> .
+<https://example.org/benchmark/inclusion/79> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/79> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/80> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/80> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/80> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/80> .
+<https://example.org/benchmark/inclusion/80> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/80> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/81> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/81> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/81> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/81> .
+<https://example.org/benchmark/inclusion/81> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/81> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/82> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/82> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/82> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/82> .
+<https://example.org/benchmark/inclusion/82> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/82> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/83> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/83> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/83> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/83> .
+<https://example.org/benchmark/inclusion/83> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/83> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/84> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/84> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/84> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/84> .
+<https://example.org/benchmark/inclusion/84> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/84> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/85> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/85> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/85> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/85> .
+<https://example.org/benchmark/inclusion/85> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/85> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/86> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/86> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/86> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/86> .
+<https://example.org/benchmark/inclusion/86> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/86> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/87> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/87> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/87> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/87> .
+<https://example.org/benchmark/inclusion/87> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/87> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/88> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/88> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/88> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/88> .
+<https://example.org/benchmark/inclusion/88> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/88> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/89> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/89> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/89> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/89> .
+<https://example.org/benchmark/inclusion/89> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/89> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/90> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/90> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/90> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/90> .
+<https://example.org/benchmark/inclusion/90> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/90> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/91> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/91> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/91> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/91> .
+<https://example.org/benchmark/inclusion/91> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/91> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/92> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/92> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/92> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/92> .
+<https://example.org/benchmark/inclusion/92> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/92> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/93> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/93> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/93> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/93> .
+<https://example.org/benchmark/inclusion/93> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/93> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/94> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/94> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/94> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/94> .
+<https://example.org/benchmark/inclusion/94> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/94> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/95> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/95> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/95> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/95> .
+<https://example.org/benchmark/inclusion/95> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/95> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/96> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/96> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/96> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/96> .
+<https://example.org/benchmark/inclusion/96> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/96> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/97> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/97> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/97> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/97> .
+<https://example.org/benchmark/inclusion/97> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/97> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/98> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/98> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/98> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/98> .
+<https://example.org/benchmark/inclusion/98> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/98> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/99> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/99> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/99> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/99> .
+<https://example.org/benchmark/inclusion/99> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/99> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+
+<https://example.org/benchmark/dataset/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://example.org/benchmark/statement/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/Statement> .
+<https://example.org/benchmark/statement/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies> <<( <https://example.org/benchmark/dataset/100> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> )>> .
+<https://example.org/benchmark/statement/100> <http://purl.org/dc/terms/source> <https://example.org/example/DMP> .
+<https://example.org/benchmark/inclusion/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.org/dmp-vocab/StatementInclusion> .
+<https://example.org/benchmark/inclusion/100> <https://example.org/dmp-vocab/statement> <https://example.org/benchmark/statement/100> .
+<https://example.org/benchmark/inclusion/100> <https://example.org/dmp-vocab/version> <https://example.org/example/V1> .
+<https://example.org/benchmark/inclusion/100> <http://www.w3.org/ns/adms#status> <https://example.org/dmp-vocab/Planned> .
+

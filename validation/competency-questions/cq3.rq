@@ -1,0 +1,23 @@
+PREFIX ex:   <https://example.org/example/>
+PREFIX dmp:  <https://example.org/dmp-vocab/>
+PREFIX adms: <http://www.w3.org/ns/adms#>
+
+SELECT ?statement ?stateV1 ?stateV2
+WHERE {
+    ?inclusionV1 a dmp:StatementInclusion ;
+        dmp:version ex:V1 ;
+        dmp:statement ?statement .
+
+    ?inclusionV2 a dmp:StatementInclusion ;
+        dmp:version ex:V2 ;
+        dmp:statement ?statement .
+
+    OPTIONAL {
+        ?inclusionV1 adms:status ?stateV1 .
+    }
+
+    OPTIONAL {
+        ?inclusionV2 adms:status ?stateV2 .
+    }
+}
+ORDER BY ?statement

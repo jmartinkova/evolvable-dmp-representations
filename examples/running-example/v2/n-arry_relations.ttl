@@ -1,0 +1,113 @@
+# N-ary relation nodes represent Statement content; status is on version-specific inclusion.
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dmp: <https://example.org/dmp-vocab/> .
+@prefix ex: <https://example.org/example/> .
+@prefix nr: <https://example.org/nary/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dmp:Planned a skos:Concept ;
+    skos:prefLabel "Planned"@en .
+
+dmp:Completed a skos:Concept ;
+    skos:prefLabel "Completed"@en .
+
+dmp:Deprecated a skos:Concept ;
+    skos:prefLabel "Deprecated"@en .
+
+# DMP and both versions
+ex:DMP a dmp:DMP .
+
+ex:V1 a dmp:DMPVersion ;
+    dmp:versionOf ex:DMP .
+
+ex:V2 a dmp:DMPVersion ;
+    dmp:previousVersion ex:V1 ;
+    dmp:versionOf ex:DMP .
+
+# Resources described by the Statements
+ex:images a dcat:Dataset ;
+    dcterms:title "Microscopy images" ;
+    nr:hasDepositionRelation ex:S1 ;
+    nr:hasHumanOrSensitiveDataRelation ex:S3 ;
+    nr:hasLicenseRelation ex:S2, ex:S4 .
+
+ex:localCopy a dcat:Distribution ;
+    dmp:copyOf ex:images ;
+    nr:hasRetentionRelation ex:S5 .
+
+# S1: Content unchanged across versions
+ex:S1 a nr:DepositionRelation ;
+    dcterms:source ex:DMP ;
+    nr:depositionValue <https://www.ebi.ac.uk/bioimage-archive/> .
+
+# S2: Original licensing plan, superseded by S4
+ex:S2 a dmp:SupersededStatement,
+        nr:LicenseRelation ;
+    dcterms:source ex:DMP ;
+    nr:licenseValue <https://creativecommons.org/licenses/by/4.0/> .
+
+# S3: No human or sensitive data
+ex:S3 a nr:HumanOrSensitiveDataRelation ;
+    dcterms:source ex:DMP ;
+    nr:humanOrSensitiveDataValue false .
+
+# S4: New release terms, superseding S2
+ex:S4 a dmp:SupersedingStatement,
+        nr:LicenseRelation ;
+    dcterms:source ex:DMP ;
+    dmp:supersedes ex:S2 ;
+    nr:licenseValue <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+# Illustrative external policy
+<https://example.org/policies/data-retention> a dmp:ExternalSource ;
+    dcterms:title "Institutional research data retention policy"@en .
+
+
+# S5: Retention commitment originating from the policy
+ex:S5 a nr:RetentionRelation ;
+    dcterms:source <https://example.org/policies/data-retention> ;
+    nr:retentionValue "10"^^xsd:integer ;
+    nr:retentionUnit dmp:Years .
+
+# Preserved V1 records
+ex:S1_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement ex:S1 ;
+    dmp:version ex:V1 .
+
+ex:S2_V1 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement ex:S2 ;
+    dmp:version ex:V1 .
+
+ex:S3_V1 a dmp:StatementInclusion ;
+    dmp:statement ex:S3 ;
+    dmp:version ex:V1 .
+
+# V2 records
+ex:S1_V2 a dmp:StatementInclusion ;
+    adms:status dmp:Completed ;
+    dmp:statement ex:S1 ;
+    dmp:version ex:V2 .
+
+ex:S2_V2 a dmp:StatementInclusion ;
+    adms:status dmp:Deprecated ;
+    dmp:statement ex:S2 ;
+    dmp:version ex:V2 .
+
+ex:S3_V2 a dmp:StatementInclusion ;
+    dmp:statement ex:S3 ;
+    dmp:version ex:V2 .
+
+ex:S4_V2 a dmp:StatementInclusion ;
+    adms:status dmp:Completed ;
+    dmp:statement ex:S4 ;
+    dmp:version ex:V2 .
+
+ex:S5_V2 a dmp:StatementInclusion ;
+    adms:status dmp:Planned ;
+    dmp:statement ex:S5 ;
+    dmp:version ex:V2 .

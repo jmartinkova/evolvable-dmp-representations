@@ -1,0 +1,21 @@
+{
+  "variables": [
+    "statement"
+  ],
+  "raw_term_representations": [
+    [
+      "<Graph identifier=_:Formula6 (<class 'rdflib.graph.QuotedGraph'>)>"
+    ],
+    [
+      "<Graph identifier=_:Formula8 (<class 'rdflib.graph.QuotedGraph'>)>"
+    ]
+  ],
+  "decoded_rows": [
+    [
+      "https://example.org/example/S4"
+    ],
+    [
+      "https://example.org/example/S5"
+    ]
+  ]
+}

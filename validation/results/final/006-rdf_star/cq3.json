@@ -1,0 +1,27 @@
+{ "head": {
+    "vars": [ "subject" , "predicate" , "object" , "stateV1" , "stateV2" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "predicate": { "type": "uri" , "value": "https://example.org/dmp-vocab/containsHumanOrSensitiveData" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#boolean" , "value": "false" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "predicate": { "type": "uri" , "value": "http://purl.org/dc/terms/license" } ,
+        "object": { "type": "uri" , "value": "https://creativecommons.org/licenses/by/4.0/" } ,
+        "stateV1": { "type": "uri" , "value": "https://example.org/dmp-vocab/Planned" } ,
+        "stateV2": { "type": "uri" , "value": "https://example.org/dmp-vocab/Deprecated" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "https://example.org/example/images" } ,
+        "predicate": { "type": "uri" , "value": "https://example.org/dmp-vocab/depositedIn" } ,
+        "object": { "type": "uri" , "value": "https://www.ebi.ac.uk/bioimage-archive/" } ,
+        "stateV1": { "type": "uri" , "value": "https://example.org/dmp-vocab/Planned" } ,
+        "stateV2": { "type": "uri" , "value": "https://example.org/dmp-vocab/Completed" }
+      }
+    ]
+  }
+}

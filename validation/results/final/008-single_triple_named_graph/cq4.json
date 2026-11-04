@@ -1,0 +1,14 @@
+{ "head": {
+    "vars": [ "statement" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "statement": { "type": "uri" , "value": "https://example.org/example/S4" }
+      } ,
+      { 
+        "statement": { "type": "uri" , "value": "https://example.org/example/S5" }
+      }
+    ]
+  }
+}

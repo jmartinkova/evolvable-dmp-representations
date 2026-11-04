@@ -1,0 +1,59 @@
+@prefix ex:   <https://example.org/example/> .
+@prefix dmp:  <https://example.org/dmp-vocab/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+dmp:Planned a skos:Concept ;
+    skos:prefLabel "Planned"@en .
+dmp:Completed a skos:Concept ; 
+    skos:prefLabel "Completed"@en .
+dmp:Deprecated a skos:Concept ; 
+    skos:prefLabel "Deprecated"@en .
+
+# DMP and its first version
+ex:DMP a dmp:DMP .
+
+ex:V1 a dmp:DMPVersion ; 
+    dmp:versionOf ex:DMP .
+
+# Dataset described by the Statements
+ex:images a dcat:Dataset ; 
+    dct:title "Microscopy images" .
+
+# S1: Deposition in the BioImage Archive
+ex:S1 {
+    ex:images dmp:depositedIn <https://www.ebi.ac.uk/bioimage-archive/> .
+}
+ex:S1 a dmp:Statement ; 
+    dct:source ex:DMP .
+
+# S2: Release under CC BY 4.0
+ex:S2 {
+    ex:images dct:license <https://creativecommons.org/licenses/by/4.0/> .
+}
+ex:S2 a dmp:Statement ; 
+    dct:source ex:DMP .
+
+# S3: No human or sensitive data
+ex:S3 {
+    ex:images dmp:containsHumanOrSensitiveData false .
+}
+ex:S3 a dmp:Statement ; 
+    dct:source ex:DMP .
+
+# V1 records
+ex:S1_V1 a dmp:StatementInclusion ;
+    dmp:statement ex:S1 ; 
+    dmp:version ex:V1 ; 
+    adms:status dmp:Planned .
+
+ex:S2_V1 a dmp:StatementInclusion ;
+    dmp:statement ex:S2 ; 
+    dmp:version ex:V1 ; 
+    adms:status dmp:Planned .
+
+ex:S3_V1 a dmp:StatementInclusion ;
+    dmp:statement ex:S3 ; 
+    dmp:version ex:V1 .

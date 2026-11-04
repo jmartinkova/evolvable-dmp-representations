@@ -1,0 +1,13 @@
+<%%dataset%%> a dcat:Dataset .
+
+<%%statement%%> a rdf:Statement ;
+    rdf:subject <%%dataset%%> ;
+    rdf:predicate dct:license ;
+    rdf:object <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:source ex:DMP .
+
+<%%inclusion%%> a dmp:StatementInclusion ;
+    dmp:statement <%%statement%%> ;
+    dmp:version ex:V1 ;
+    adms:status dmp:Planned .
+    

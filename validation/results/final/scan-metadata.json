@@ -1,0 +1,8 @@
+{
+  "examples": "/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/example/v2",
+  "queries": "/Users/janamartinkova/Desktop/GitHub/phd/BCM/paper/DMP_examples/competency-questions",
+  "file_count": 10,
+  "arq": "/opt/homebrew/Cellar/jena/6.2.0/libexec/bin/arq",
+  "arq_star": "/Users/janamartinkova/Desktop/GitHub/phd/RDF-benchmark/apache-jena-5.3.0/bin/arq",
+  "scope": "Cumulative S1--S5 V2 examples; shared IRI queries, RDF-star projection, RDFLib N3 procedure"
+}
