@@ -1,12 +1,27 @@
 cff-version: 1.2.0
-message: "Please cite the archived release and accompanying article when available."
+message: "If you use these materials, please cite the archived release."
 title: "Towards Evolvable Data Management Plans: Representing the Contents — Supporting Materials"
 type: software
+
 authors:
-  - family-names: Martínková
-    given-names: Jana
-  - family-names: Suchánek
-    given-names: Marek
-  - family-names: Pergl
-    given-names: Robert
-# Add confirmed repository-code, version, date-released and DOI after release.
+  - family-names: "Martínková"
+    given-names: "Jana"
+    orcid: "https://orcid.org/0000-0001-8575-6533"
+  - family-names: "Suchánek"
+    given-names: "Marek"
+    orcid: "https://orcid.org/0000-0001-7525-9218"
+  - family-names: "Pergl"
+    given-names: "Robert"
+    orcid: "https://orcid.org/0000-0003-2980-4400"
+
+version: "1.0.0"
+date-released: "2026-11-05"
+doi: to-be-assigned
+repository-code: "https://github.com/jmartinkova/evolvable-dmp-representations"
+
+keywords:
+  - "data management plans"
+  - "research data management"
+  - "RDF"
+  - "versioning"
+  - "reproducibility"
