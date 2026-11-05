@@ -107,8 +107,13 @@ Common supported encodings are measured in both versions; original RDF-star only
 
 Interpret timing comparisons within the same Jena version. This benchmark does not measure disk throughput, storage ingestion, query execution, automatic interpretation or version comparison.
 
-## Citation and licensing
+## Citation
 
-`CITATION.cff` TODO: update with final publication details.
+If you use the RDF examples, validation scripts, or benchmark
+materials from this repository, please cite the archived release:
+
+[Towards Evolvable Data Management Plans: Representing the Contents — Supporting Materials](https://doi.org/10.5281/zenodo.23983890)
+
+For the full citation and BibTeX export, see the Zenodo record.
 
 Contact: Jana Martínková, jana.martinkova@cvut.cz.
